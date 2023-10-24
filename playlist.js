@@ -12,7 +12,7 @@ export const playlistArr = [
   {
     title: "Stairway to Heaven",
     artist: "Led Zeppelin",
-    albumArt: "stairway-to-heaven.png",
+    albumArt: "https://i.postimg.cc/FK5X2Q0s/stairway-to-heaven.png",
   },
   {
     title: "Therefore I Am",
