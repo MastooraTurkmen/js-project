@@ -2,7 +2,7 @@ export const playlistArr = [
   {
     title: "Bohemian Rhapsody",
     artist: "Queen",
-    albumArt: "bohemian-rhapsody.png",
+    albumArt: "https://i.postimg.cc/RZw0Dd2f/bohemian-rhapsody.png",
   },
   {
     title: "As It Was",
