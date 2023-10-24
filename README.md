@@ -1,6 +1,6 @@
 # A few Songs
 
-Quick start:
+> Quick start:
 
 ```
 $ npm install
