@@ -17,6 +17,6 @@ export const playlistArr = [
   {
     title: "Therefore I Am",
     artist: "Billie Eilish",
-    albumArt: "therefore-i-am.png",
+    albumArt: "https://i.postimg.cc/SKvCyDNs/therefore-i-am.png",
   },
 ];
