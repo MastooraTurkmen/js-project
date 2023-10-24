@@ -1,0 +1,70 @@
+body {
+    background-color: #000000;
+    margin: 0;
+    color: white;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    background: #000000;
+    width: 100%; 
+    max-width: 300px;
+    padding: 0 11px;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s ease;
+    margin: 0 20px 5px 20px;
+    border-radius: 5px;
+}
+
+.card-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card img {
+   width: 48px; 
+   border-radius: 5px;
+}
+.card-mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 16px;
+}
+
+.card:hover {
+    box-shadow: 0 0px 15px rgba(255, 255, 255, .8);
+}
+
+h4.card-title {  
+    font-size: 17px;
+    margin: 0 0 3px 0;
+}
+
+.card-artist {
+    font-size: 13px;
+    margin: 0;
+}
+
+.card-menu {
+    font-size: 21px;
+    color: #888888;
+    transform: rotate(90deg);
+    width: 21px;
+    cursor: pointer;
+}
+
+.card-menu:hover {
+    color: #ffffff;
+}
