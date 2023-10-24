@@ -5,7 +5,7 @@ const playlistHtml = playlistArr
     return `
     <section class="card">
         <div class="card-start">
-            <img src="./images/${track.albumArt}">
+            <img src="${track.albumArt}">
         </div>
             <div class="card-mid">
                 <h4 class="card-title">${track.title}</h4>

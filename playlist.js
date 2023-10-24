@@ -7,7 +7,7 @@ export const playlistArr = [
   {
     title: "As It Was",
     artist: "Harry Styles",
-    albumArt: "as-it-was.png",
+    albumArt: "https://i.postimg.cc/GmX0Msqr/as-it-was.png",
   },
   {
     title: "Stairway to Heaven",
