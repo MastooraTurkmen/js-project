@@ -10,7 +10,13 @@ const Wrapper = styled.article`
     align-items: center;
     justify-content: space-between;
   }
-
+  .count {
+    display: block;
+    font-weight: 700;
+    font-size: 50px;
+    color: ${(props) => props.color};
+  }
+  
 `
 
 export default Wrapper
