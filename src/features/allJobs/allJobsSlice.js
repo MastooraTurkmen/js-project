@@ -25,6 +25,28 @@ export const getAllJobs = createAsyncThunk('allJobs/getJobs', getAllJobsThunk);
 
 export const showStats = createAsyncThunk('allJobs/showStats', showStatsThunk);
 
+const allJobsSlice = createSlice({
+  name: 'allJobs',
+  initialState,
+  reducers: {
+    showLoading: (state) => {
+      state.isLoading = true;
+    },
+    hideLoading: (state) => {
+      state.isLoading = false;
+    },
+    handleChange: (state, { payload: { name, value } }) => {
+      state.page = 1;
+      state[name] = value;
+    },
+    clearFilters: (state) => {
+      return { ...state, ...initialFiltersState };
+    },
+    changePage: (state, { payload }) => {
+      state.page = payload;
+    },
+    clearAllJobsState: (state) => initialState,
+  },
 
 });
 
