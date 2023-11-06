@@ -5,3 +5,9 @@ import {
   getUserFromLocalStorage,
   removeUserFromLocalStorage,
 } from '../../utils/localStorage';
+import {
+  loginUserThunk,
+  registerUserThunk,
+  updateUserThunk,
+  clearStoreThunk,
+} from './userThunk';
