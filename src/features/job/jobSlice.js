@@ -17,3 +17,12 @@ const initialState = {
 
 export const createJob = createAsyncThunk('job/createJob', createJobThunk);
 
+export const deleteJob = createAsyncThunk('job/deleteJob', deleteJobThunk);
+
+export const editJob = createAsyncThunk('job/editJob', editJobThunk);
+
+
+
+export const { handleChange, clearValues, setEditJob } = jobSlice.actions;
+
+export default jobSlice.reducer;
