@@ -15,7 +15,5 @@ const initialState = {
   editJobId: '',
 };
 
+export const createJob = createAsyncThunk('job/createJob', createJobThunk);
 
-export const { handleChange, clearValues, setEditJob } = jobSlice.actions;
-
-export default jobSlice.reducer;
