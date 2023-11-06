@@ -24,3 +24,21 @@ export const registerUser = createAsyncThunk(
     return registerUserThunk('/auth/register', user, thunkAPI);
   }
 );
+
+export const loginUser = createAsyncThunk(
+  'user/loginUser',
+  async (user, thunkAPI) => {
+    return loginUserThunk('/auth/login', user, thunkAPI);
+  }
+);
+
+export const updateUser = createAsyncThunk(
+  'user/updateUser',
+  async (user, thunkAPI) => {
+    return updateUserThunk('/auth/updateUser', user, thunkAPI);
+  }
+);
+export const clearStore = createAsyncThunk('user/clearStore', clearStoreThunk);
+
+export const { toggleSidebar, logoutUser } = userSlice.actions;
+export default userSlice.reducer;
