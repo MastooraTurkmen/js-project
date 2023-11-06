@@ -11,3 +11,16 @@ import {
   updateUserThunk,
   clearStoreThunk,
 } from './userThunk';
+
+const initialState = {
+  isLoading: false,
+  isSidebarOpen: false,
+  user: getUserFromLocalStorage(),
+};
+
+export const registerUser = createAsyncThunk(
+  'user/registerUser',
+  async (user, thunkAPI) => {
+    return registerUserThunk('/auth/register', user, thunkAPI);
+  }
+);
