@@ -10,3 +10,4 @@ const links = [
   { id: 4, text: 'profile', path: 'profile', icon: <ImProfile /> },
 ];
 
+export default links;
