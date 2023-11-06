@@ -21,7 +21,25 @@ export const deleteJob = createAsyncThunk('job/deleteJob', deleteJobThunk);
 
 export const editJob = createAsyncThunk('job/editJob', editJobThunk);
 
+const jobSlice = createSlice({
+  name: 'job',
+  initialState,
+  reducers: {
+    handleChange: (state, { payload: { name, value } }) => {
+      state[name] = value;
+    },
+    clearValues: () => {
+      return {
+        ...initialState,
+        jobLocation: getUserFromLocalStorage()?.location || '',
+      };
+    },
+    setEditJob: (state, { payload }) => {
+      return { ...state, isEditing: true, ...payload };
+    },
+  },
 
+});
 
 export const { handleChange, clearValues, setEditJob } = jobSlice.actions;
 
