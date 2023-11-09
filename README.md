@@ -22,9 +22,6 @@ npx create-react-app@latest myApp
 
 ```
 
-- set editor/browser side by side
-- copy/paste assets and readme from complete project
-
 #### 2) Title and Favicon
 
 - change title in public/index.html
