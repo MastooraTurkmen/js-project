@@ -60,7 +60,6 @@ npm install normalize.css
 - replace contents of index.css
 - if any questions about normalize or specific styles
 - Coding Addict - [Default Starter Video](https://youtu.be/UDdyGNlQK5w)
-- Repo - [Default Starter Repo](https://github.com/john-smilga/default-starter)
 
 #### 4) Landing Page - Setup
 
