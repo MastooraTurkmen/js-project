@@ -2,10 +2,6 @@
 
 Project in Action - [Jobster](https://redux-toolkit-jobster.netlify.app/)
 
-#### Support
-
-Find the App Useful? [You can always buy me a coffee](https://www.buymeacoffee.com/johnsmilga)
-
 #### Run The App Locally
 
 ```sh
