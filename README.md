@@ -2,10 +2,6 @@
 
 Project in Action - [Jobster](https://redux-toolkit-jobster.netlify.app/)
 
-#### React Course
-
-[My React Course](https://www.udemy.com/course/react-tutorial-and-projects-course/?referralCode=FEE6A921AF07E2563CEF)
-
 #### Support
 
 Find the App Useful? [You can always buy me a coffee](https://www.buymeacoffee.com/johnsmilga)
@@ -3594,3 +3590,54 @@ const SearchContainer = () => {
 export default SearchContainer;
 ```
 
+#### Setup Debounce
+
+```js
+import { useState, useMemo } from 'react';
+
+const SearchContainer = () => {
+  const [localSearch, setLocalSearch] = useState('');
+
+  const handleSearch = (e) => {
+    dispatch(handleChange({ name: e.target.name, value: e.target.value }));
+  };
+
+  const debounce = () => {
+    let timeoutID;
+    return (e) => {
+      setLocalSearch(e.target.value);
+      clearTimeout(timeoutID);
+      timeoutID = setTimeout(() => {
+        dispatch(handleChange({ name: e.target.name, value: e.target.value }));
+      }, 1000);
+    };
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLocalSearch('');
+    dispatch(clearFilters());
+  };
+
+  const optimizedDebounce = useMemo(() => debounce(), []);
+
+  return (
+    <Wrapper>
+      <form className='form'>
+        <h4>search form</h4>
+        <div className='form-center'>
+          {/* search position */}
+          <FormRow
+            type='text'
+            name='search'
+            value={localSearch}
+            handleChange={optimizedDebounce}
+          />
+          // ...rest of the code
+        </div>
+      </form>
+    </Wrapper>
+  );
+};
+export default SearchContainer;
+```
