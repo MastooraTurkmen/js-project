@@ -55,12 +55,6 @@ npx create-react-app@latest myApp
 npm install normalize.css
 ```
 
-- import 'normalize.css' in index.js
-- SET BEFORE 'index.css'
-- replace contents of index.css
-- if any questions about normalize or specific styles
-- Coding Addict - [Default Starter Video](https://youtu.be/UDdyGNlQK5w)
-
 #### 4) Landing Page - Setup
 
 - zoom level 175%
