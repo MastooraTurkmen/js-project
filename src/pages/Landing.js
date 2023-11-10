@@ -5,7 +5,7 @@ const Landing = () => {
     return (
         <main>
             <nav>
-                
+                <img src={logo} alt="jobster logo" className="logo" />
             </nav>
         </main>
     )
