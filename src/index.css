@@ -279,3 +279,78 @@ ul {
   letter-spacing: var(--letterSpacing);
   text-transform: capitalize;
 }
+
+/* alert */
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  width: 6rem;
+  height: 6rem;
+  border: 5px solid var(--grey-400);
+  border-radius: 50%;
+  border-top-color: var(--primary-500);
+  animation: spinner 2s linear infinite;
+}
+
+.loading-center {
+  margin: 0 auto;
+}
+
+/* title */
+
+.title {
+  text-align: center;
+}
+
+.title-underline {
+  background: var(--primary-500);
+  width: 7rem;
+  height: 0.25rem;
+  margin: 0 auto;
+  margin-top: -1rem;
+}
+
+.container {
+  width: var(--fluid-width);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.full-page {
+  min-height: 100vh;
+}
+
+.coffee-info {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  letter-spacing: var(--letterSpacing);
+}
+
+.coffee-info span {
+  display: block;
+}
+
+.coffee-info a {
+  color: var(--primary-500);
+}
+
+@media screen and (min-width: 992px) {
+  .coffee-info {
+    text-align: left;
+  }
+
+  .coffee-info span {
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+}
+
+.Toastify__toast {
+  text-transform: capitalize;
+}
