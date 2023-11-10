@@ -40,12 +40,6 @@ npx create-react-app@latest myApp
 npm install normalize.css
 ```
 
-```js
-<h4>Landing Page<h4>
-```
-
-- import logo.svg and main.svg
-- import Landing in App.js and render
 
 ##### 5) Landing Page - Structure
 
