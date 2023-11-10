@@ -72,9 +72,6 @@ export default Landing;
 
 #### 6) Styled Components
 
-- have logic and styles in component
-- no name collisions
-- apply javascript logic
 - [Styled Components Docs](https://styled-components.com/)
 
 ```sh
