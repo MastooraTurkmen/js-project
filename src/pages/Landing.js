@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Landing = () => {
     return (
-        <main>
+        <Wrapper>
             <nav>
                 <img src={logo} alt="jobster logo" className="logo" />
             </nav>
@@ -22,8 +22,12 @@ const Landing = () => {
                 </div>
                 <img src={main} alt="" className="img main-img" />
             </div>
-        </main>
+        </Wrapper>
     )
 }
+
+const Wrapper = styled.main`
+
+`
 
 export default Landing
