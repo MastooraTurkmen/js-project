@@ -86,13 +86,6 @@ const El = styled.el`
 `;
 ```
 
-- element can be any html element (div,button,section, etc)
-
-- no name collisions, since unique class
-- vscode-styled-components extension
-- colors and bugs
-- style entire react component
-
 #### 7) Styled Components - Wrap Component
 
 ```js
