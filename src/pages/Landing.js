@@ -3,7 +3,11 @@ import main from '../assets/images/main.svg'
 
 const Landing = () => {
     return (
-        <div>Landing</div>
+        <main>
+            <nav>
+                
+            </nav>
+        </main>
     )
 }
 
