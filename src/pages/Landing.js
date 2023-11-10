@@ -10,8 +10,9 @@ const Landing = () => {
             <div className="container page">
                 {/* info */}
                 <div className="info">
-                    
+
                 </div>
+                <img src={main} alt="" className="img main-img" />
             </div>
         </main>
     )
