@@ -22,9 +22,8 @@ npx create-react-app@latest myApp
 
 ```
 
-#### 2) Title and Favicon
+#### 2) Favicon
 
-- replace favicon.ico in public
 - resource [Generate Favicons](https://favicon.io/)
 
 #### 3) Normalize.css and Global Styles
