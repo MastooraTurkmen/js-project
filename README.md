@@ -70,7 +70,7 @@ const Landing = () => {
 export default Landing;
 ```
 
-#### 6) Styled Components - Basic Setup
+#### 6) Styled Components
 
 - CSS in JS
 - Styled Components
