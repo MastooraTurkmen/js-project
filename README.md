@@ -79,9 +79,7 @@ npm install styled-components
 
 ```js
 import styled from "styled-components";
-```
 
-```js
 const Wrapper = styled.el``;
 
 const Component = () => {
