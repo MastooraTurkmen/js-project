@@ -27,7 +27,10 @@ const Landing = () => {
 }
 
 const Wrapper = styled.main`
-
-`
+nav {
+    width: var(--fluid-width);
+ 
+}
+`;
 
 export default Landing
