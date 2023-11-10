@@ -40,17 +40,6 @@ npx create-react-app@latest myApp
 npm install normalize.css
 ```
 
-#### 4) Landing Page - Setup
-
-- zoom level 175%
-- markdown preview extension
-- get something on the screen
-- react router and styled components right after
-- create pages directory in the source
-- for now Landing.js
-- create component (snippets extension)
-- setup basic return
-
 ```js
 <h4>Landing Page<h4>
 ```
