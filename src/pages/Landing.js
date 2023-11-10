@@ -17,6 +17,7 @@ const Landing = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Iure iusto accusantium dolores illum natus nihil nobis et quae quidem ab!
                     </p>
+                    <button className="btn btn-hero">Login/Register</button>
                 </div>
                 <img src={main} alt="" className="img main-img" />
             </div>
