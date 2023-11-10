@@ -11,6 +11,12 @@ const Landing = () => {
                 {/* info */}
                 <div className="info">
                     <h1>job <span>tracking</span></h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iure iusto accusantium dolores illum natus nihil nobis et quae quidem ab!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iure iusto accusantium dolores illum natus nihil nobis et quae quidem ab!
+                    </p>
                 </div>
                 <img src={main} alt="" className="img main-img" />
             </div>
