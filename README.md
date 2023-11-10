@@ -72,8 +72,6 @@ export default Landing;
 
 #### 6) Styled Components
 
-- CSS in JS
-- Styled Components
 - have logic and styles in component
 - no name collisions
 - apply javascript logic
