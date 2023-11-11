@@ -42,6 +42,11 @@ nav {
     margin-top: -1rem;
   }
 
+ h1 {
+    font-weight: 700;
+
+  }
+
 `;
 
 export default Landing
