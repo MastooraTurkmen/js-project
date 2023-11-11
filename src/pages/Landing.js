@@ -35,6 +35,7 @@ nav {
     display: flex;
     align-items: center;
 }
+
 .page {
     min-height: calc(100vh - var(--nav-height));
     display: grid;
@@ -42,13 +43,14 @@ nav {
     margin-top: -1rem;
   }
 
- h1 {
+h1 {
     font-weight: 700;
     span {
       color: var(--primary-500);
     }
   }
- p {
+
+p {
     color: var(--grey-600);
   }
 
