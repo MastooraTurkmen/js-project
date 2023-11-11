@@ -37,6 +37,7 @@ nav {
 }
  .page {
     min-height: calc(100vh - var(--nav-height));
+    display: grid;
     
   }
 
