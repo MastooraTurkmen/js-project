@@ -33,6 +33,7 @@ nav {
     margin: 0 auto;
     height: var(--nav-height);
     display: flex;
+    align-items: center;
 }
 `;
 
