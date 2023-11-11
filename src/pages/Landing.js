@@ -63,7 +63,9 @@ const Wrapper = styled.main`
       grid-template-columns: 1fr 1fr;
       column-gap: 3rem;
     }
-
+    .main-img {
+      display: block;
+    }
   }
 
 `;
