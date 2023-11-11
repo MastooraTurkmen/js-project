@@ -35,7 +35,7 @@ nav {
     display: flex;
     align-items: center;
 }
- .page {
+.page {
     min-height: calc(100vh - var(--nav-height));
     display: grid;
     align-items: center;
@@ -47,6 +47,9 @@ nav {
     span {
       color: var(--primary-500);
     }
+  }
+ p {
+    color: var(--grey-600);
   }
 
 `;
