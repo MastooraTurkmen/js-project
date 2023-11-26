@@ -102,7 +102,6 @@ const Component = () => {
 - [Cool Images](https://undraw.co/)
 
 
-Logo.js
 
 ```js
 import logo from "../assets/images/logo.svg";
