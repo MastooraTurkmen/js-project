@@ -1,5 +1,6 @@
 import main from '../assets/images/main.svg'
 import Wrapper from '../assets/wrappers/LandingPage'
+import Logo from '../component/Logo'
 
 const Landing = () => {
     return (
