@@ -113,7 +113,6 @@ const Logo = () => {
 export default Logo;
 ```
 
-- basic return
 - create index.js
 - import all the pages
 - export one by one
