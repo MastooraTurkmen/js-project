@@ -1,4 +1,4 @@
-import img from '../assets/images/logo.svg'
+import logo from '../assets/images/logo.svg'
 
 import React from 'react'
 
