@@ -113,8 +113,6 @@ const Logo = () => {
 export default Logo;
 ```
 
-#### 12) Setup Pages
-
 - create Error, Register, Dashboard pages
 - basic return
 - create index.js
