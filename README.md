@@ -101,7 +101,6 @@ const Component = () => {
 - logo built in Figma
 - [Cool Images](https://undraw.co/)
 
-- move import and image logic
 - export as default
 - utilize index.js
 
