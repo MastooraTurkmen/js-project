@@ -6,7 +6,6 @@ const Landing = () => {
     return (
         <Wrapper>
             <nav>
-                <img src={logo} alt="jobster logo" className="logo" />
             </nav>
             <div className="container page">
                 {/* info */}
