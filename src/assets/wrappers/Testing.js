@@ -43,3 +43,5 @@ const Wrapper = styled.main`
   }
 
 `;
+
+export default Wrapper;
