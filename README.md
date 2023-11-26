@@ -102,7 +102,6 @@ const Component = () => {
 - [Cool Images](https://undraw.co/)
 
 
-- create <b>components</b> folder in source
 - create Logo.js
 - move import and image logic
 - export as default
