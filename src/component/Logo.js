@@ -4,7 +4,7 @@ import React from 'react'
 
 function Logo() {
     return (
-        <div>Logo</div>
+        <img src={logo} alt="jobster logo" className="logo" />
     )
 }
 
