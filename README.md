@@ -101,7 +101,6 @@ const Component = () => {
 - logo built in Figma
 - [Cool Images](https://undraw.co/)
 
-#### 11) Logo Component
 
 - create <b>components</b> folder in source
 - create Logo.js
