@@ -155,7 +155,7 @@ return (
 );
 ```
 
-#### 14) Error Page
+#### 11) Error Page
 
 ```js
 import { Link } from "react-router-dom";
