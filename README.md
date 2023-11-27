@@ -113,7 +113,7 @@ const Logo = () => {
 export default Logo;
 ```
 
-#### 13) React Router 6
+#### 10) React Router 6
 
 - Please Reference React Router 6 Section
 
