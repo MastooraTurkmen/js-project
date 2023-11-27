@@ -2,4 +2,4 @@ import Landing from "./Landing";
 import Dashboard from "./Dashboard";
 
 
-export { Landing }
+export { Landing, Dashboard }
