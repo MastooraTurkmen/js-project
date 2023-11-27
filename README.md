@@ -113,7 +113,6 @@ const Logo = () => {
 export default Logo;
 ```
 
-- import all the pages
 - export one by one
 - basically the same, as in components
 - import App.js
