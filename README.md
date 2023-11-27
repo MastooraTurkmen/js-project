@@ -174,7 +174,7 @@ return (
 );
 ```
 
-#### 15) Auto Imports
+#### 12) Auto Imports
 
 - use while developing
 - only sparingly while recording
