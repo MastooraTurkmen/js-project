@@ -113,7 +113,6 @@ const Logo = () => {
 export default Logo;
 ```
 
-- create index.js
 - import all the pages
 - export one by one
 - basically the same, as in components
