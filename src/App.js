@@ -6,6 +6,7 @@ function App() {
       <Landing />
       <Dashboard />
       <Error />
+      <Register />
     </>
   );
 }
