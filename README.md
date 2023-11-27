@@ -113,7 +113,6 @@ const Logo = () => {
 export default Logo;
 ```
 
-- basically the same, as in components
 - import App.js
 
 #### 13) React Router 6
