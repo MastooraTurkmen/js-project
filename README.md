@@ -101,8 +101,8 @@ const Component = () => {
 - logo built in Figma
 - [Cool Images](https://undraw.co/)
 
-
 #### 8) Logo components
+
 ```js
 import logo from "../assets/images/logo.svg";
 
@@ -113,7 +113,6 @@ const Logo = () => {
 export default Logo;
 ```
 
-- export one by one
 - basically the same, as in components
 - import App.js
 
