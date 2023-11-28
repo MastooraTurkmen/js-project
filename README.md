@@ -1114,7 +1114,7 @@ return (
 );
 ```
 
-#### 42) Setup Links
+#### 36) Setup Links
 
 - create utils/links.js
 
