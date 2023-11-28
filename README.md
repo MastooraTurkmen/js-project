@@ -350,7 +350,7 @@ const onSubmit = (e) => {
 };
 ```
 
-#### 21) React Toastify
+#### 16) React Toastify
 
 [React Toastify](https://www.npmjs.com/package/react-toastify)
 
