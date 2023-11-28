@@ -183,7 +183,7 @@ return (
 - just my preference
 - still use them, just not all the time
 
-#### 16) Register Page - Setup
+#### 13) Register Page - Setup
 
 ```js
 import { useState, useEffect } from "react";
