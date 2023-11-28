@@ -669,7 +669,7 @@ extraReducers: (builder) => {
 
 ```
 
-#### 28) Login User
+#### 23) Login User
 
 userSlice.js
 
