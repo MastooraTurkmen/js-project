@@ -1090,7 +1090,7 @@ export const SmallSidebar = () => {
 export default SmallSidebar;
 ```
 
-#### 41) Small Sidebar - Toggle
+#### 35) Small Sidebar - Toggle
 
 SmallSidebar.js;
 
