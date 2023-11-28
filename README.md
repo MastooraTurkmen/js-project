@@ -547,7 +547,7 @@ npm install axios
 - { email:'john@gmail.com', name:'john', lastName:'smith', location:'my location' }
 - sends back the user object with token
 
-#### 26) Custom Axios Instance
+#### 21) Custom Axios Instance
 
 - utils/axios.js
 
