@@ -987,7 +987,7 @@ const [showLogout, setShowLogout] = useState(false)
 
 ```
 
-#### 38) Logout User
+#### 32) Logout User
 
 userSlice.js
 
