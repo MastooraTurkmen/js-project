@@ -770,7 +770,7 @@ const Register = () => {
 };
 ```
 
-#### 31) Setup Dashboard Pages
+#### 26) Setup Dashboard Pages
 
 - remove Dashboard.js
 - create Dashboard Folder
