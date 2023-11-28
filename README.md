@@ -243,7 +243,7 @@ function Register() {
 }
 ```
 
-#### 17) Switch To React 18
+#### 14) Switch To React 18
 
 - index.js
 
