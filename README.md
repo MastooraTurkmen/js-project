@@ -492,7 +492,7 @@ const onSubmit = (e) => {
   };
 ```
 
-#### 24) HTTP Methods
+#### 19) HTTP Methods
 
 - GET - get resources from the server
 - POST - submit resource to the server
