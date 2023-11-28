@@ -1419,7 +1419,7 @@ const handleSubmit = (e) => {
 };
 ```
 
-#### 48) Unauthorized - Logout User
+#### 41) Unauthorized - Logout User
 
 userSlice.js
 
