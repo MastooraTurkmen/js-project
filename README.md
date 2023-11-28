@@ -1365,7 +1365,6 @@ export default Profile;
 
 ###### Update USER
 
-- PATCH /auth/updateUser
 - { email:'john@gmail.com', name:'john', lastName:'smith', location:'my location' }
 - authorization header : 'Bearer token'
 - sends back the user object with token
