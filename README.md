@@ -704,7 +704,7 @@ export const loginUser = createAsyncThunk(
 );
 ```
 
-#### 29) LocalStorage
+#### 24) LocalStorage
 
 - utils/localStorage.js
 
