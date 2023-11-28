@@ -1154,7 +1154,7 @@ const links = [
 export default links;
 ```
 
-#### 43) Small Sidebar - Nav Links
+#### 37) Small Sidebar - Nav Links
 
 SmallSidebar.js
 
