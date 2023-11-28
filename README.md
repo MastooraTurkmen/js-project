@@ -1456,7 +1456,7 @@ logoutUser: (state) => {
     },
 ```
 
-#### 49) Refactor Async Functionality
+#### 42) Refactor Async Functionality
 
 - features/user/userThunk.js
 
