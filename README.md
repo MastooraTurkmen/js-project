@@ -1025,7 +1025,7 @@ import { toggleSidebar, logoutUser } from "../features/user/userSlice";
 </div>;
 ```
 
-#### 39) Restrict Access
+#### 33) Restrict Access
 
 - pages/ProtectedRoute.js
 
