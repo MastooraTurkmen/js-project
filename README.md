@@ -1365,8 +1365,6 @@ export default Profile;
 
 ###### Update USER
 
-- sends back the user object with token
-
 userSlice.js
 
 ```js
