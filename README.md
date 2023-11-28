@@ -750,7 +750,7 @@ const initialState = {
     },
 ```
 
-#### 30) Programmatically Navigate To Dashboard
+#### 25) Programmatically Navigate To Dashboard
 
 Register.js
 
