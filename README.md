@@ -1361,7 +1361,7 @@ export default Profile;
 
 ```
 
-#### 47) Update User - Complete
+#### 40) Update User - Complete
 
 ###### Update USER
 
