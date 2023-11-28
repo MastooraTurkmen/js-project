@@ -326,7 +326,7 @@ return (
 );
 ```
 
-#### 20) Handle Change and Empty Values
+#### 15) Handle Change and Empty Values
 
 [Dynamic Object Keys](https://youtu.be/_qxCYtWm0tw)
 
