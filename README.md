@@ -965,7 +965,7 @@ const toggle = () => {
 </button>;
 ```
 
-#### 37) Toggle Dropdown
+#### 31) Toggle Dropdown
 
 ```js
 Navbar.js
