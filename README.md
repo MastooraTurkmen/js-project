@@ -579,7 +579,7 @@ export const registerUser = createAsyncThunk(
 );
 ```
 
-#### 27) Register User
+#### 22) Register User
 
 userSlice.js
 
