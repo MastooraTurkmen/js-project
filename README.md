@@ -8,7 +8,7 @@ npm run install && npm start
 
 - visit url http://localhost:3000/
 
-#### Setup React App
+#### 1) Setup React App
 
 ```sh
 
