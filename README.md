@@ -1058,7 +1058,7 @@ App.js
 </Route>
 ```
 
-#### 40) Small Sidebar - Setup
+#### 34) Small Sidebar - Setup
 
 ```js
 SmallSidebar.js;
