@@ -844,7 +844,7 @@ const SharedLayout = () => {
 export default SharedLayout;
 ```
 
-#### 33) Shared Layout CSS
+#### 28) Shared Layout CSS
 
 - import Wrappers in BigSidebar,SmallSidebar and Navbar
 
