@@ -396,7 +396,7 @@ index.css
 }
 ```
 
-#### 22) User Slice - Setup
+#### 17) User Slice - Setup
 
 - features/user/userSlice.js
 
