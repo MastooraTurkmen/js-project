@@ -808,7 +808,7 @@ function App() {
 }
 ```
 
-#### 32) Navbar, SmallSidebar, BigSidebar
+#### 27) Navbar, SmallSidebar, BigSidebar
 
 - create Navbar, SmallSidebar, BigSidebar in components
 - import Wrappers from assets/wrappers
