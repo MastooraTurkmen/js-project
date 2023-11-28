@@ -448,7 +448,7 @@ root.render(
 npm install @reduxjs/toolkit react-redux
 ```
 
-#### 23) RegisterUser, LoginUser - Placeholders
+#### 18) RegisterUser, LoginUser - Placeholders
 
 - userSlice.js
 
