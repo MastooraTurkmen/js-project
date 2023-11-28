@@ -930,7 +930,7 @@ const Navbar = () => {
 export default Navbar;
 ```
 
-#### 36) Toggle Sidebar
+#### 30) Toggle Sidebar
 
 userSlice.js
 
