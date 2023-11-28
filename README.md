@@ -1279,7 +1279,7 @@ const BigSidebar = () => {
 export default BigSidebar;
 ```
 
-#### 46) Profile Page - Structure
+#### 39) Profile Page - Structure
 
 Profile.js
 
