@@ -1365,7 +1365,6 @@ export default Profile;
 
 ###### Update USER
 
-- authorization header : 'Bearer token'
 - sends back the user object with token
 
 userSlice.js
