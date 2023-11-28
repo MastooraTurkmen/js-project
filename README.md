@@ -514,7 +514,7 @@ axios.delete(url, options);
 npm install axios
 ```
 
-#### 25) API
+#### 20) API
 
 - Root URL
 - https://redux-toolkit-jobster-api-server.onrender.com/api/v1
