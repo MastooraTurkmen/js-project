@@ -1246,7 +1246,7 @@ import NavLinks from "./NavLinks";
 return <NavLinks toggleSidebar={toggle} />;
 ```
 
-#### 45) Big Sidebar
+#### 38) Big Sidebar
 
 ```js
 import NavLinks from "./NavLinks";
