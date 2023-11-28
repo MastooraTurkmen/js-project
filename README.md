@@ -870,7 +870,7 @@ export default Navbar
 
 ```
 
-#### 35) Navbar Structure
+#### 29) Navbar Structure
 
 Navbar.js;
 
