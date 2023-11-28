@@ -844,7 +844,7 @@ const SharedLayout = () => {
 export default SharedLayout;
 ```
 
-#### 29) React Icons
+#### 28) React Icons
 
 [React Icons](https://react-icons.github.io/react-icons/)
 
