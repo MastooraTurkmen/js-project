@@ -1813,7 +1813,6 @@ return (
 
 #### 47) Create Job Request
 
-- { position:'position', company:'company', jobLocation:'location', jobType:'full-time', status:'pending' }
 - authorization header : 'Bearer token'
 - sends back the job object
 
