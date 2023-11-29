@@ -1986,7 +1986,7 @@ export const store = configureStore({
 });
 ```
 
-#### 59) AllJobs Page Structure
+#### 51) AllJobs Page Structure
 
 - create
 - components/SearchContainer.js
