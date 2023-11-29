@@ -2667,7 +2667,7 @@ const Stats = () => {
 export default Stats;
 ```
 
-#### 76) Stats Container
+#### 67) Stats Container
 
 - create components/StatItem.js
 
