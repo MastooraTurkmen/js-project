@@ -2360,7 +2360,7 @@ useEffect(() => {
 }, []);
 ```
 
-#### 68) EditJob Request
+#### 60) EditJob Request
 
 - PATCH /jobs/jobId
 - { position:'position', company:'company', jobLocation:'location', jobType:'full-time', status:'pending' }
