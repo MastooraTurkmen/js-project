@@ -2245,7 +2245,7 @@ Job.js
 const date = moment(createdAt).format("MMM Do, YYYY");
 ```
 
-#### 65) Toggle Loading in AllJobs
+#### 57) Toggle Loading in AllJobs
 
 allJobsSlice.js
 
