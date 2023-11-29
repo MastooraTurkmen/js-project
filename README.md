@@ -2197,7 +2197,7 @@ const Job = ({
 export default Job;
 ```
 
-#### 63) JobInfo
+#### 55) JobInfo
 
 - components/JobInfo.js
 
