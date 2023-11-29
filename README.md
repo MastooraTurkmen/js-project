@@ -2011,7 +2011,7 @@ const AllJobs = () => {
 export default AllJobs;
 ```
 
-#### 60) JobsContainer.js
+#### 52) JobsContainer.js
 
 ```js
 import { useEffect } from "react";
