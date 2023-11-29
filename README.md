@@ -2076,7 +2076,7 @@ if (isLoading) {
 }
 ```
 
-#### 61) GetAllJobs Request
+#### 53) GetAllJobs Request
 
 - GET /jobs
 - authorization header : 'Bearer token'
