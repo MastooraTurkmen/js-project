@@ -2520,7 +2520,7 @@ export const createJobThunk = async (job, thunkAPI) => {
 };
 ```
 
-#### 70) AuthHeader - Utils Approach
+#### 62) AuthHeader - Utils Approach
 
 - create utils/authHeader.js
 
