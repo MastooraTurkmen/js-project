@@ -2496,7 +2496,7 @@ export const deleteJob = createAsyncThunk("job/deleteJob", deleteJobThunk);
 export const editJob = createAsyncThunk("job/editJob", editJobThunk);
 ```
 
-#### 70) AuthHeader - File Approach
+#### 62) AuthHeader - File Approach
 
 jobThunk.js
 
