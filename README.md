@@ -1813,8 +1813,6 @@ return (
 
 #### 47) Create Job Request
 
-- sends back the job object
-
 ```js
 export const createJob = createAsyncThunk(
   'job/createJob',
