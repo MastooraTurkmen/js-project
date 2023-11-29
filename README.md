@@ -1904,7 +1904,7 @@ jobSlice.js
     },
 ```
 
-#### 57) Logout Message
+#### 49) Logout Message
 
 userSlice.js
 
