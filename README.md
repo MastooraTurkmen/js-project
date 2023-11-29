@@ -2591,7 +2591,7 @@ Register.js
 </button>
 ```
 
-#### 74) Get Stats Request
+#### 65) Get Stats Request
 
 - GET /jobs/stats
 - authorization header : 'Bearer token'
