@@ -2669,8 +2669,6 @@ export default Stats;
 
 #### 67) Stats Container
 
-- create components/StatItem.js
-
 StatsContainer.js
 
 ```js
