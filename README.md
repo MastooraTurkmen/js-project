@@ -1811,7 +1811,7 @@ return (
 );
 ```
 
-#### 55) Create Job Request
+#### 47) Create Job Request
 
 - POST /jobs
 - { position:'position', company:'company', jobLocation:'location', jobType:'full-time', status:'pending' }
