@@ -1673,7 +1673,7 @@ const AddJob = () => {
 export default AddJob;
 ```
 
-#### 52) FormRowSelect
+#### 44) FormRowSelect
 
 ```js
 // job status
