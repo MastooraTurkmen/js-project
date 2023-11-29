@@ -1778,7 +1778,7 @@ const handleJobInput = (e) => {
 };
 ```
 
-#### 54) User Slice - ClearValues Reducer
+#### 46) User Slice - ClearValues Reducer
 
 ```js
 
