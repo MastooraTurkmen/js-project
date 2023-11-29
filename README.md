@@ -2309,7 +2309,7 @@ Job.js
 </button>
 ```
 
-#### 67) SetEditJob Reducer
+#### 59) SetEditJob Reducer
 
 jobSlice.js
 
