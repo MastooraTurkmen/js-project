@@ -2542,7 +2542,7 @@ jobThunk.js
 import authHeader from "../../utils/authHeader";
 ```
 
-#### 72) AuthHeader - Axios Interceptors Approach
+#### 63) AuthHeader - Axios Interceptors Approach
 
 - utils/axios.js
 
