@@ -2577,7 +2577,6 @@ export default customFetch;
 #### 64) Test User
 
 - read only!
-- dummy data
 
 Register.js
 
