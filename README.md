@@ -1932,7 +1932,7 @@ Navbar.js
 </button>
 ```
 
-#### 58) AllJobs Slice
+#### 50) AllJobs Slice
 
 - features/allJobs/allJobsSlice.js
 
