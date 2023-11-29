@@ -1813,7 +1813,6 @@ return (
 
 #### 47) Create Job Request
 
-- authorization header : 'Bearer token'
 - sends back the job object
 
 ```js
