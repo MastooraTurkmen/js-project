@@ -2635,7 +2635,7 @@ export const showStats = createAsyncThunk(
 
 ```
 
-#### 75) Stats Page
+#### 66) Stats Page
 
 - create
 - components/StatsContainer.js
