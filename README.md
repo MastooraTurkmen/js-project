@@ -2637,8 +2637,6 @@ export const showStats = createAsyncThunk(
 
 #### 66) Stats Page
 
-- import/export
-
 Stats.js
 
 ```js
