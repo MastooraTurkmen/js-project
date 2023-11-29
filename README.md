@@ -2265,7 +2265,7 @@ export const {
 
 ```
 
-#### 66) Delete Job Request
+#### 58) Delete Job Request
 
 - DELETE /jobs/jobId
 - authorization header : 'Bearer token'
