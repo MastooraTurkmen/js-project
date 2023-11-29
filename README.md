@@ -2576,7 +2576,6 @@ export default customFetch;
 
 #### 64) Test User
 
-- email : testUser@test.com
 - password : secret
 - read only!
 - dummy data
