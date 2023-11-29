@@ -2574,7 +2574,7 @@ export default customFetch;
 
 - remove auth header
 
-#### 73) Test User
+#### 64) Test User
 
 - email : testUser@test.com
 - password : secret
