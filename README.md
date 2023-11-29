@@ -1532,7 +1532,7 @@ export const updateUser = createAsyncThunk(
 );
 ```
 
-#### 50) Job Slice
+#### 43) Job Slice
 
 - features/job/jobSlice.js
 
