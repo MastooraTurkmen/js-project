@@ -3425,7 +3425,6 @@ userSlice.js
 
 #### Switch To Local Search
 
-- import useState and useMemo from react
 - setup localSearch state value
 - replace search input functionality so it updates localSearch
 
