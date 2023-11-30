@@ -2957,7 +2957,6 @@ allJobsSlice.js
 
 ```js
     extraReducers:{
-
     [getAllJobs.fulfilled]: (state, { payload }) => {
       state.isLoading = false;
       state.jobs = payload.jobs;
