@@ -2964,7 +2964,6 @@ allJobsSlice.js
       state.totalJobs = payload.totalJobs;
     },
   }
-
 ```
 
 JobsContainer
