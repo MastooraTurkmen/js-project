@@ -2953,8 +2953,6 @@ const handleSubmit = (e) => {
 
 #### 75) Pagination Setup
 
-- server returns 10 jobs per page
-
 - create
 - components/PageBtnContainer.js
 
