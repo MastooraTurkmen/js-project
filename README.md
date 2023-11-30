@@ -2785,7 +2785,7 @@ npm install recharts
 npm install react@18 react-dom@18
 ```
 
-#### 80) AreaChart
+#### 71) AreaChart
 
 AreaChart.js
 
