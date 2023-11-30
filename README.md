@@ -2714,7 +2714,7 @@ const StatsContainer = () => {
 export default StatsContainer;
 ```
 
-#### 77) Stat Item
+#### 68) Stat Item
 
 StatItem.js
 
