@@ -3159,7 +3159,7 @@ const handleSearch = (e) => {
 };
 ```
 
-#### 89) Refactor allJobsSlice.js
+#### 80) Refactor allJobsSlice.js
 
 - create
 - features/allJobs/allJobsThunk.js
