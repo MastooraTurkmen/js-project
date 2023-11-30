@@ -2988,7 +2988,7 @@ return (
 );
 ```
 
-#### 85) PageBtnContainer Structure
+#### 76) PageBtnContainer Structure
 
 [JS Nuggets - Array.from()](https://youtu.be/zg1Bv4xubwo)
 
