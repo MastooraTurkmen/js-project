@@ -2953,8 +2953,6 @@ const handleSubmit = (e) => {
 
 #### 75) Pagination Setup
 
-- components/PageBtnContainer.js
-
 allJobsSlice.js
 
 ```js
