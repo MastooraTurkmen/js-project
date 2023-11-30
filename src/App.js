@@ -4,7 +4,6 @@ function App() {
   return (
     <div>
       <Landing />
-      <Error />
       <Register />
     </div>
   );
