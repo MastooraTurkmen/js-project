@@ -3138,7 +3138,7 @@ useEffect(() => {
 }, [page, search, searchStatus, searchType, sort]);
 ```
 
-#### 88) Change Page and isLoading
+#### 79) Change Page and isLoading
 
 allJobsSlice.js
 
