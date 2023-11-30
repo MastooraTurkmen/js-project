@@ -3297,8 +3297,6 @@ export const showStatsThunk = async (_, thunkAPI) => {
 };
 ```
 
-- refactor in all authenticated requests
-
 #### Refactor All Extra Reducers to Builder Callback Notation
 
 allJobsSlice.js
