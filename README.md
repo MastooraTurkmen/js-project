@@ -2847,7 +2847,7 @@ const BarChartComponent = ({ data }) => {
 export default BarChartComponent;
 ```
 
-#### 82) Search Container
+#### 73) Search Container
 
 SearchContainer.js
 
