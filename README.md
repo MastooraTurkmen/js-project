@@ -2956,7 +2956,6 @@ const handleSubmit = (e) => {
 allJobsSlice.js
 
 ```js
-
     extraReducers:{
 
     [getAllJobs.fulfilled]: (state, { payload }) => {
