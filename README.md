@@ -3161,7 +3161,6 @@ const handleSearch = (e) => {
 
 #### 80) Refactor allJobsSlice.js
 
-- create
 - features/allJobs/allJobsThunk.js
 
 ```js
