@@ -2917,7 +2917,7 @@ const SearchContainer = () => {
 export default SearchContainer;
 ```
 
-#### 83) Handle Change and Clear Filters
+#### 74) Handle Change and Clear Filters
 
 allJobsSlice.js
 
