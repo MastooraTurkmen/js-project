@@ -2737,8 +2737,6 @@ export default StatItem;
 ```
 
 #### 69) Charts Container
-
-- create
 - components/AreaChart.js
 - components/BarChart.js
 
