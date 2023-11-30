@@ -3210,7 +3210,7 @@ reducers:{
 }
 ```
 
-#### 91) clearStore
+#### 82) clearStore
 
 userThunk.js
 
