@@ -3266,7 +3266,7 @@ return (
 );
 ```
 
-#### 92) UnAuthorized Requests
+#### 83) UnAuthorized Requests
 
 axios.js
 
