@@ -2736,7 +2736,7 @@ const StatItem = ({ count, title, icon, color, bcg }) => {
 export default StatItem;
 ```
 
-#### 78) Charts Container
+#### 69) Charts Container
 
 - create
 - components/AreaChart.js
