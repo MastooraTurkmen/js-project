@@ -2742,7 +2742,6 @@ ChartsContainer.js
 
 ```js
 import React, { useState } from "react";
-
 import BarChart from "./BarChart";
 import AreaChart from "./AreaChart";
 import Wrapper from "../assets/wrappers/ChartsContainer";
