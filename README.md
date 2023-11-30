@@ -3200,7 +3200,7 @@ export const getAllJobs = createAsyncThunk("allJobs/getJobs", getAllJobsThunk);
 export const showStats = createAsyncThunk("allJobs/showStats", showStatsThunk);
 ```
 
-#### 90) Clear Store - Setup
+#### 81) Clear Store - Setup
 
 allJobsSlice.js
 
