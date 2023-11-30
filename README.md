@@ -3425,7 +3425,6 @@ userSlice.js
 
 #### Switch To Local Search
 
-- setup localSearch state value
 - replace search input functionality so it updates localSearch
 
 ```js
