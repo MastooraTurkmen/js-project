@@ -3161,8 +3161,6 @@ const handleSearch = (e) => {
 
 #### 80) Refactor allJobsSlice.js
 
-- features/allJobs/allJobsThunk.js
-
 ```js
 import customFetch from "../../utils/axios";
 
