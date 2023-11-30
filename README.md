@@ -2951,7 +2951,7 @@ const handleSubmit = (e) => {
 };
 ```
 
-#### 84) Pagination Setup
+#### 75) Pagination Setup
 
 - server returns 10 jobs per page
 
