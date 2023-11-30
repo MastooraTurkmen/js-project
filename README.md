@@ -2817,7 +2817,7 @@ const AreaChartComponent = ({ data }) => {
 export default AreaChartComponent;
 ```
 
-#### 81) BarChart.js
+#### 72) BarChart.js
 
 ```js
 import {
