@@ -174,7 +174,6 @@ return (
 );
 ```
 
-- only sparingly while recording
 - better picture
 - messes with flow
 - just my preference
