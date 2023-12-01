@@ -174,7 +174,6 @@ return (
 );
 ```
 
-- use while developing
 - only sparingly while recording
 - better picture
 - messes with flow
