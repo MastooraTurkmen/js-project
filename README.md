@@ -174,7 +174,6 @@ return (
 );
 ```
 
-- messes with flow
 - just my preference
 - still use them, just not all the time
 
