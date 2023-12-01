@@ -6,8 +6,8 @@ const Error = () => {
   return (
     <Wraaper className="full-page">
       <div>
-        
-</div>
+        <img src={img} alt="" />
+      </div>
     </Wraaper>
   )
 }
