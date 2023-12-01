@@ -261,8 +261,6 @@ root.render(<App tab="home" />);
 
 #### 18) FormRow Component
 
-- hint "type,name,value"
-
 ```js
 const FormRow = ({ type, name, value, handleChange, labelText }) => {
   return (
