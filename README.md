@@ -261,7 +261,6 @@ root.render(<App tab="home" />);
 
 #### 18) FormRow Component
 
-- setup import/export
 - setup one for email and password
 - hint "type,name,value"
 
