@@ -174,8 +174,6 @@ return (
 );
 ```
 
-#### 12) Auto Imports
-
 - use while developing
 - only sparingly while recording
 - better picture
