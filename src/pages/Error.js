@@ -4,7 +4,9 @@ import Wraaper from '../assets/wrappers/ErrorPage'
 
 const Error = () => {
   return (
-    <div>Error</div>
+    <Wraaper>
+      
+    </Wraaper>
   )
 }
 
