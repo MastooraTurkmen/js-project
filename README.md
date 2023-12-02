@@ -288,7 +288,6 @@ return (
       />
     )}
 
-    {/* right after submit btn */}
     {/* toggle button */}
 
     <p>
