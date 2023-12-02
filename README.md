@@ -279,7 +279,6 @@ const toggleMember = () => {
 return (
   <Wrapper>
     <h3>{values.isMember ? "Login" : "Register"}</h3>
-
     {!values.isMember && (
       <FormRow
         type="text"
