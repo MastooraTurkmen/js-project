@@ -27,6 +27,9 @@ const Register = () => {
                 <Logo />
                 <h3>Login</h3>
                 {/* name field */}
+                <div className="form-row">
+
+                </div>
             </form>
         </Wrapper>
     )
