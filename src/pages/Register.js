@@ -4,7 +4,9 @@ import Wrapper from "../assets/wrappers/RegisterPage";
 
 const Register = () => {
     return (
-        <div>Register</div>
+        <Wrapper>
+            
+        </Wrapper>
     )
 }
 
