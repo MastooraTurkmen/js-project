@@ -1,4 +1,4 @@
-
+import { useState, useEffect } from "react";
 
 const Register = () => {
     return (
