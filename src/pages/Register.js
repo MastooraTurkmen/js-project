@@ -26,6 +26,7 @@ const Register = () => {
             <form className="form" onSubmit={onSubmit}>
                 <Logo />
                 <h3>Login</h3>
+                {/* name field */}
             </form>
         </Wrapper>
     )
