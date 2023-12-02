@@ -287,9 +287,6 @@ return (
         handleChange={handleChange}
       />
     )}
-
-    {/* toggle button */}
-
     <p>
       {values.isMember ? "Not a member yet?" : "Already a member?"}
 
