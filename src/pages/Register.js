@@ -5,6 +5,7 @@ import Wrapper from "../assets/wrappers/RegisterPage";
 const initialState = {
     name: '',
     email: '',
+    password: '',
 }
 
 const Register = () => {
