@@ -187,7 +187,6 @@ const initialState = {
   password: "",
   isMember: true,
 };
-// global state
 
 function Register() {
   const [values, setValues] = useState(initialState);
