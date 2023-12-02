@@ -191,8 +191,6 @@ const initialState = {
 function Register() {
   const [values, setValues] = useState(initialState);
 
-  // redux toolkit and useNavigate later
-
   const handleChange = (e) => {
     console.log(e.target);
   };
