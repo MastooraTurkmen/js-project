@@ -10,6 +10,7 @@ const initialState = {
 }
 
 const Register = () => {
+    const [value, setValue] = useState(initialState)
     return (
         <Wrapper>
 
