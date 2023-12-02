@@ -187,7 +187,6 @@ const initialState = {
   password: "",
   isMember: true,
 };
-// if possible prefer local state
 // global state
 
 function Register() {
