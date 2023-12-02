@@ -17,7 +17,7 @@ const Register = () => {
     }
 
     const onSubmit = (e) => {
-        
+        e.preventDefault()
     }
 
     return (
