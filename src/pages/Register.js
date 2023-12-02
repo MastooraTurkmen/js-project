@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Logo } from "../components";
+import { Logo } from "../component";
 import Wrapper from "../assets/wrappers/RegisterPage";
 
 const initialState = {
