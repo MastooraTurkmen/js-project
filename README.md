@@ -173,8 +173,6 @@ return (
   </Wrapper>
 );
 ```
-
-- just my preference
 - still use them, just not all the time
 
 #### 13) Register Page - Setup
