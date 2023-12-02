@@ -10,7 +10,7 @@ const initialState = {
 }
 
 const Register = () => {
-    const [value, setValue] = useState(initialState)
+    const [values, setValues] = useState(initialState)
 
     const handleChange = (e) => {
         console.log(e.target);
@@ -31,7 +31,7 @@ const Register = () => {
                     <label htmlFor="name" className="form-label">
                         name
                     </label>
-                    <input type="text" name="name" />
+                    <input type="text" name="name" value={values.name} />
                 </div>
             </form>
         </Wrapper>
