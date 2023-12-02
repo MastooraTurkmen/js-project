@@ -22,7 +22,7 @@ const Register = () => {
     }
 
     return (
-        <Wrapper>
+        <Wrapper className="full-page">
 
         </Wrapper>
     )
