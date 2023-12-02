@@ -280,8 +280,6 @@ return (
   <Wrapper>
     <h3>{values.isMember ? "Login" : "Register"}</h3>
 
-    {/* toggle name */}
-
     {!values.isMember && (
       <FormRow
         type="text"
