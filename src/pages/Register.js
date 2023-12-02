@@ -13,6 +13,7 @@ const Register = () => {
     const [value, setValue] = useState(initialState)
 
     const handleChange = (e) => {
+        e.preventDefault()
         console.log(e.target);
     }
 
