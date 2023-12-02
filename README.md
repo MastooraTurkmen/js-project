@@ -180,7 +180,6 @@ return (
 import { useState, useEffect } from "react";
 import { Logo } from "../components";
 import Wrapper from "../assets/wrappers/RegisterPage";
-// redux toolkit and useNavigate later
 
 const initialState = {
   name: "",
