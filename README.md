@@ -278,8 +278,6 @@ const toggleMember = () => {
 
 return (
   <Wrapper>
-    {/* control h3 */}
-
     <h3>{values.isMember ? "Login" : "Register"}</h3>
 
     {/* toggle name */}
