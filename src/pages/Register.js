@@ -27,7 +27,7 @@ const Register = () => {
                 <Logo />
                 <h3>Login</h3>
                 {/* name field */}
-                <FormRow type='text' name='name' />
+                <FormRow type='text' name='name' value={values.name} handleChange={handleChange} />
                 <button type="button" className="btn btn-block">submit</button>
             </form>
         </Wrapper>
