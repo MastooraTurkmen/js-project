@@ -22,7 +22,7 @@ const Register = () => {
     }
 
     const toggleMemeber = () => {
-        setValues()
+        setValues({ ...values, isMember: !values.isMember })
     }
 
     return (
