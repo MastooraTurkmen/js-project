@@ -21,6 +21,10 @@ const Register = () => {
         console.log(e.target);
     }
 
+    const toggleMemeber = () => {
+        
+    }
+
     return (
         <Wrapper className="full-page">
             <form className="form" onSubmit={onSubmit}>
