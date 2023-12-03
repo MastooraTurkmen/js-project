@@ -1,6 +1,17 @@
 const FormRow = () => {
     return (
-        <div>FormRow</div>
+        <div className="form-row">
+            <label htmlFor="name" className="form-label">
+                name
+            </label>
+            <input
+                className="form-input"
+                type="text"
+                name="name"
+                onChange={handleChange}
+                value={values.name}
+            />
+        </div>
     )
 }
 
