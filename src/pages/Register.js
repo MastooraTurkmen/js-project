@@ -41,7 +41,9 @@ const Register = () => {
                     handleChange={handleChange}
                 />
                 {/* password field */}
-                
+                <FormRow
+                    
+                />
                 <button type="button" className="btn btn-block">submit</button>
             </form>
         </Wrapper>
