@@ -33,6 +33,7 @@ const Register = () => {
                     </label>
                     <input className="form-input" type="text" name="name" onChange={handleChange} value={values.name} />
                 </div>
+                <button type="button" className="btn btn-block"></button>
             </form>
         </Wrapper>
     )
