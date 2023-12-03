@@ -44,7 +44,7 @@ const Register = () => {
                 <FormRow
                     type='password'
                     name='password'
-                    
+                    value={values.password}
                 />
                 <button type="button" className="btn btn-block">submit</button>
             </form>
