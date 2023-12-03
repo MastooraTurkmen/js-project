@@ -45,6 +45,7 @@ const Register = () => {
                     type='password'
                     name='password'
                     value={values.password}
+                    handleChange={handleChange}
                 />
                 <button type="button" className="btn btn-block">submit</button>
             </form>
