@@ -36,6 +36,7 @@ const Register = () => {
                 {/* email field */}
                 <FormRow
                     type='email'
+                    name='email'
                     
                 />
                 <button type="button" className="btn btn-block">submit</button>
