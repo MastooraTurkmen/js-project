@@ -38,6 +38,7 @@ const Register = () => {
                     type='email'
                     name='email'
                     value={values.email}
+                    handleChange={handleChange}
                 />
                 <button type="button" className="btn btn-block">submit</button>
             </form>
