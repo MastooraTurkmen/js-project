@@ -34,7 +34,10 @@ const Register = () => {
                     handleChange={handleChange}
                 />
                 {/* email field */}
-               
+                <FormRow
+                    type='email'
+                    
+                />
                 <button type="button" className="btn btn-block">submit</button>
             </form>
         </Wrapper>
