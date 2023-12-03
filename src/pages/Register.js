@@ -43,6 +43,7 @@ const Register = () => {
                 {/* password field */}
                 <FormRow
                     type='password'
+                    name='password'
                     
                 />
                 <button type="button" className="btn btn-block">submit</button>
