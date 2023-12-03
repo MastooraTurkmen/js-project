@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Logo } from "../component";
+import { Logo, FormRow } from "../component";
 import Wrapper from "../assets/wrappers/RegisterPage";
 
 const initialState = {
@@ -27,7 +27,7 @@ const Register = () => {
                 <Logo />
                 <h3>Login</h3>
                 {/* name field */}
-                
+
                 <button type="button" className="btn btn-block">submit</button>
             </form>
         </Wrapper>
