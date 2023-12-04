@@ -54,7 +54,7 @@ const Register = () => {
                     handleChange={handleChange}
                 />
                 <button type="button" className="btn btn-block">submit</button>
-                <p>testing
+                <p> {values.isMember ? 'Not a member yet' : 'already a member'}
                     <button type="button" className="btn" onClick={toggleMemeber}>testing</button>
                 </p>
             </form>
