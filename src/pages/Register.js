@@ -53,7 +53,7 @@ const Register = () => {
                 />
                 <button type="button" className="btn btn-block">submit</button>
                 <p>testing
-                    <button></button>
+                    <button type="button" onClick={toggleMemeber}></button>
                 </p>
             </form>
         </Wrapper>
