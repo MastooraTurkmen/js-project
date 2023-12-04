@@ -31,6 +31,7 @@ const Register = () => {
                 <Logo />
                 <h3>{values.isMember ? 'Login' : "Register"}</h3>
                 {/* name field */}
+                {!values.isMember && }
                 <FormRow
                     type='text'
                     name='name'
