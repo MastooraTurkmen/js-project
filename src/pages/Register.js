@@ -55,7 +55,9 @@ const Register = () => {
                 />
                 <button type="button" className="btn btn-block">submit</button>
                 <p> {values.isMember ? 'Not a member yet' : 'already a member'}
-                    <button type="button" className="btn" onClick={toggleMemeber}>testing</button>
+                    <button type="button" className="member-btn" onClick={toggleMemeber}>
+                        {values.isMember ? 'Register' : 'Login'}
+                    </button>
                 </p>
             </form>
         </Wrapper>
