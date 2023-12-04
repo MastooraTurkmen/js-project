@@ -52,7 +52,9 @@ const Register = () => {
                     handleChange={handleChange}
                 />
                 <button type="button" className="btn btn-block">submit</button>
-                <p>testing</p>
+                <p>testing
+                    <button></button>
+                </p>
             </form>
         </Wrapper>
     )
