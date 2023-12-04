@@ -29,7 +29,7 @@ const Register = () => {
         <Wrapper className="full-page">
             <form className="form" onSubmit={onSubmit}>
                 <Logo />
-                <h3>Login</h3>
+                <h3>{values.isMember ? 'Login' : "Register"}</h3>
                 {/* name field */}
                 <FormRow
                     type='text'
