@@ -2236,7 +2236,6 @@ export const {
 
 #### 58) Delete Job Request
 
-- DELETE /jobs/jobId
 - authorization header : 'Bearer token'
 
 jobSlice.js
