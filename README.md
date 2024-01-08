@@ -478,10 +478,7 @@ npm install axios
 
 #### 20) API
 
-- Root URL
 - https://redux-toolkit-jobster-api-server.onrender.com/api/v1
-
-- NODE COURSE
 
 ###### Register USER
 
