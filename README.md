@@ -346,8 +346,6 @@ if (!email || !password || (!isMember && !name)) {
 }
 ```
 
-- modifications
-
 position
 
 <ToastContainer position='top-center' >
