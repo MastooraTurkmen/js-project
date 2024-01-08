@@ -2330,7 +2330,6 @@ useEffect(() => {
 
 - PATCH /jobs/jobId
 - { position:'position', company:'company', jobLocation:'location', jobType:'full-time', status:'pending' }
-- authorization header : 'Bearer token'
 
 jobSlice.js
 
