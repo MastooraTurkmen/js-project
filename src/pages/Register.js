@@ -21,7 +21,7 @@ const Register = () => {
     const onSubmit = (e) => {
         e.preventDefault()
         const { name, email, password, isMember } = values
-        if (!email || !password) {
+        if (!email || !password || (!isMember || !name)) {
             console.log('Please fill out all fields');
         }
     }
