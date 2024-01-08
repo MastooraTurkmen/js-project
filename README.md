@@ -2557,8 +2557,6 @@ Register.js
 
 #### 65) Get Stats Request
 
-- GET /jobs/stats
-- authorization header : 'Bearer token'
 - returns
   {
   defaultStats:{pending:24,interview:27,declined:24},
