@@ -492,7 +492,6 @@ npm install axios
 
 - POST /auth/testingRegister
 - {name:'john',email:'john@gmail.com',password:'secret'}
-- sends back the user object with token
 
 ###### Login USER
 
