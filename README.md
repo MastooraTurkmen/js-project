@@ -114,8 +114,6 @@ export default Logo;
 
 #### 10) React Router 6
 
-- Please Reference React Router 6 Section
-
 - [React Router Docs](https://reactrouter.com/docs/en/v6)
 
 ```sh
