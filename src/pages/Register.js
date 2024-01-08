@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Logo, FormRow } from "../component";
 import Wrapper from "../assets/wrappers/RegisterPage";
 import { toast } from "react-toastify";
-import { loginUser } from "../features/user/userSlice";
+import { loginUser, registerUser } from "../features/user/userSlice";
 
 const initialState = {
     name: '',
@@ -13,6 +13,7 @@ const initialState = {
 
 const Register = () => {
     const [values, setValues] = useState(initialState)
+    const { user, isLoading } = userSlice(store => store.user)
 
     const handleChange = (e) => {
         const name = e.target.name;
@@ -31,6 +32,7 @@ const Register = () => {
             dispatchEvent(loginUser({ email: email, password: password }))
             return;
         }
+        dispatch(registerUser(name, email))
     }
 
     const toggleMemeber = () => {
