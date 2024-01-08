@@ -140,8 +140,6 @@ function App() {
 }
 ```
 
-- go to Landing.js
-
 ```js
 import { Link } from "react-router-dom";
 
