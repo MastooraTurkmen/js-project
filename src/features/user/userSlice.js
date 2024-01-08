@@ -6,6 +6,10 @@ const initialState = {
     user: null,
 }
 
+export const registerUser = createAsyncThunk('user/registerUser', async (user, thankAPI) => {
+console.log(`Register User`);
+})
+
 const userSlice = createSlice({
     name: 'user',
     initialState,
