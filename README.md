@@ -29,7 +29,6 @@ npx create-react-app@latest myApp
 #### 3) Normalize.css and Global Styles
 
 - CSS in JS (styled-components)
-- saves times on the setup
 - less lines of css
 - speeds up the development
 - normalize.css
