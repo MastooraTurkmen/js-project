@@ -503,7 +503,6 @@ npm install axios
 
 - PATCH /auth/updateUser
 - { email:'john@gmail.com', name:'john', lastName:'smith', location:'my location' }
-- sends back the user object with token
 
 #### 21) Custom Axios Instance
 
