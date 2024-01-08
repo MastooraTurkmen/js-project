@@ -7,11 +7,11 @@ const initialState = {
 }
 
 export const registerUser = createAsyncThunk('user/registerUser', async (user, thankAPI) => {
-    console.log(`Register User : ${user}`);
+    console.log(`Register User : ${JSON.stringify(user)}`);
 })
 
 export const loginUser = createAsyncThunk('user/loginUser', async (user, thankAPI) => {
-    console.log(`Login User : ${user}`);
+    console.log(`Login User : ${JSON.stringify(user)}`);
 })
 
 const userSlice = createSlice({
