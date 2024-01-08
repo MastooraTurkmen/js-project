@@ -20,7 +20,7 @@ const Register = () => {
 
     const onSubmit = (e) => {
         e.preventDefault()
-        console.log(e.target);
+        const { name, email, password, isMember } = values
     }
 
     const toggleMemeber = () => {
