@@ -506,8 +506,6 @@ npm install axios
 
 #### 21) Custom Axios Instance
 
-- utils/axios.js
-
 ```js
 import axios from "axios";
 
