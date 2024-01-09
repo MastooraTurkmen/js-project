@@ -1,9 +1,7 @@
 import axios from "axios"
 
-const customFetch = () => {
-    return (
-        <div>customFetch</div>
-    )
-}
+const customFetch = axios.create({
+    baseURL: 'https://redux-toolkit-jobster-api-server.onrender.com/api/v1',
+})
 
 export default customFetch;
