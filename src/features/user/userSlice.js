@@ -5,7 +5,7 @@ import { getUserFromLocalStorage } from "../../utils/localStorage";
 
 const initialState = {
     isLoading: false,
-    user: getUserFromLocalStorage,
+    user: getUserFromLocalStorage(),
 }
 
 export const registerUser = createAsyncThunk('user/registerUser', async (user, thunkAPI) => {
