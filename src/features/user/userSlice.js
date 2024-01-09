@@ -7,17 +7,16 @@ const initialState = {
     user: null,
 }
 
-export const registerUser = createAsyncThunk('user/registerUser', async (user, thankAPI) => {
+export const registerUser = createAsyncThunk('user/registerUser', async (user, thunkAPI) => {
     try {
         const resp = await customFetch.post('auth/register', user)
         return resp.data;
     } catch (error) {
-        toast.error(error.reponse.data.msg)
-        console.log(error.reponse);
+        return thunkAPI.rejectWithValue(error.response.data.msg)
     }
 })
 
-export const loginUser = createAsyncThunk('user/loginUser', async (user, thankAPI) => {
+export const loginUser = createAsyncThunk('user/loginUser', async (user, thunkAPI) => {
     console.log(`Login User : ${JSON.stringify(user)}`);
 })
 
