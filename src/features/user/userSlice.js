@@ -9,8 +9,8 @@ const initialState = {
 
 export const registerUser = createAsyncThunk('user/registerUser', async (user, thankAPI) => {
     try {
-        const response = await customFetch.post('auth/register', user)
-        return resp.data
+        const resp = await customFetch.post('auth/register', user)
+        return resp.data;
     } catch (error) {
         toast.error(error.reponse.data.msg)
         console.log(error.reponse);
