@@ -1,9 +1,9 @@
 import axios from "axios"
 
-const axios = () => {
+const customFetch = () => {
     return (
-        <div>axios</div>
+        <div>customFetch</div>
     )
 }
 
-export default axios
+export default customFetch;
