@@ -8,7 +8,12 @@ const initialState = {
 }
 
 export const registerUser = createAsyncThunk('user/registerUser', async (user, thankAPI) => {
-    console.log(`Register User : ${JSON.stringify(user)}`);
+    try {
+        const response = await customFetch.post('auth/testingRegister', user)
+        console.log(response);
+    } catch (error) {
+        console.log(error.reponse);
+    }
 })
 
 export const loginUser = createAsyncThunk('user/loginUser', async (user, thankAPI) => {
