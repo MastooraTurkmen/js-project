@@ -42,6 +42,19 @@ const userSlice = createSlice({
             .addCase(registerUser.rejected, (state, { payload }) => {
                 state.isLoading = false;
                 toast.error(payload);
+            })
+            .addCase(loginUser.pending, (state) => {
+                state.isLoading = true;
+            })
+            .addCase(loginUser.fulfilled, (state, { payload }) => {
+                const { user } = payload;
+                state.isLoading = false;
+                state.user = user;
+                toast.success(`Hello There ${user.name}`);
+            })
+            .addCase(loginUser.rejected, (state, { payload }) => {
+                state.isLoading = false;
+                toast.error(payload);
             });
     },
 });
