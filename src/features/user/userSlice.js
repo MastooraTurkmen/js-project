@@ -23,6 +23,17 @@ export const loginUser = createAsyncThunk('user/loginUser', async (user, thunkAP
 const userSlice = createSlice({
     name: 'user',
     initialState,
+    extraReducers: {
+        [registerUser.pending]: (state) => {
+            state.isLoading = true;
+        },
+        [registerUser.fulfilled]: (state) => {
+            state.isLoading = false;
+        },
+        [registerUser.rejected]: (state) => {
+            state.isLoading = false;
+        },
+    }
 })
 
 export default userSlice.reducer;
