@@ -17,7 +17,12 @@ export const registerUser = createAsyncThunk('user/registerUser', async (user, t
 })
 
 export const loginUser = createAsyncThunk('user/loginUser', async (user, thunkAPI) => {
-    console.log(`Login User : ${JSON.stringify(user)}`);
+    try {
+        const resp = await customFetch.post('auth/login', user)
+        return resp.data;
+    } catch (error) {
+        return thunkAPI.rejectWithValue(error.response.data.msg)
+    }
 })
 
 const userSlice = createSlice({
