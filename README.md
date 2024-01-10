@@ -724,8 +724,6 @@ const Register = () => {
 
 #### 26) Setup Dashboard Pages
 
-- create index.js and setup import/export
-
 App.js
 
 ```js
