@@ -678,8 +678,6 @@ export const getUserFromLocalStorage = () => {
 };
 ```
 
-- invoke getUserFromLocalStorage when app loads (set it equal to user)
-
 ```js
 const initialState = {
   isLoading: false,
