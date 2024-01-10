@@ -757,9 +757,6 @@ function App() {
 
 #### 27) Navbar, SmallSidebar, BigSidebar
 
-- simple return
-- import/export
-
 ```js
 SharedLayout.js;
 
