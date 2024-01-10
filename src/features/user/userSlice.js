@@ -43,6 +43,7 @@ const userSlice = createSlice({
             })
             .addCase(registerUser.rejected, (state, { payload }) => {
                 state.isLoading = false;
+                addUserToLocalStorage(user)
                 toast.error(payload);
             })
             .addCase(loginUser.pending, (state) => {
