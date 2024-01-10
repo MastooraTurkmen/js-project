@@ -42,6 +42,7 @@ const userSlice = createSlice({
                 toast.success(`Hello There ${user.name}`);
             })
             .addCase(registerUser.rejected, (state, { payload }) => {
+                const { user } = payload;
                 state.isLoading = false;
                 addUserToLocalStorage(user)
                 toast.error(payload);
