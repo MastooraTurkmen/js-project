@@ -757,8 +757,6 @@ function App() {
 
 #### 27) Navbar, SmallSidebar, BigSidebar
 
-- create Navbar, SmallSidebar, BigSidebar in components
-- import Wrappers from assets/wrappers
 - simple return
 - import/export
 
