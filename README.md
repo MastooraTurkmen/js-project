@@ -724,8 +724,6 @@ const Register = () => {
 
 #### 26) Setup Dashboard Pages
 
-- create Dashboard Folder
-- create Stats, Profile, AddJob, AllJobs, SharedLayout,
 - create index.js and setup import/export
 
 App.js
