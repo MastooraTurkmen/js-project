@@ -4,4 +4,4 @@ import Profile from "./Profile";
 import States from './States';
 import SharedLayout from './SharedLayout';
 
-export default { Profile, AddJob, AllJobs, States, SharedLayout };
+export { Profile, AddJob, AllJobs, States, SharedLayout };
