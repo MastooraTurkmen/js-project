@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom"
+import { BigSidebar } from "../../component"
 
 const SharedLayout = () => {
     return (
