@@ -2,7 +2,9 @@ import Wrapper from "../assets/wrappers/BigSidebar"
 
 const SmallSidebar = () => {
     return (
-        <div>SmallSidebar</div>
+        <Wrapper>
+            <div>SmallSidebar</div>
+        </Wrapper>
     )
 }
 
