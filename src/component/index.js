@@ -3,6 +3,5 @@ import FormRow from "./FormRow";
 import Logo from "./Logo";
 import Navbar from "./Navbar";
 import SmallSidebar from "./SmallSidebar";
-BigSidebar, SmallSidebar
 
-export { Logo, FormRow, Navbar }
+export { Logo, FormRow, Navbar, BigSidebar, SmallSidebar }
