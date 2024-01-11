@@ -2,6 +2,7 @@ import BigSidebar from "./BigSidebar";
 import FormRow from "./FormRow";
 import Logo from "./Logo";
 import Navbar from "./Navbar";
-BigSidebar
+import SmallSidebar from "./SmallSidebar";
+BigSidebar, SmallSidebar
 
 export { Logo, FormRow, Navbar }
