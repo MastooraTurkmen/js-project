@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom"
-import { BigSidebar } from "../../component"
+import { Navbar, BigSidebar, SmallSidebar } from "../../component"
 
 const SharedLayout = () => {
     return (
