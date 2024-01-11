@@ -1,5 +1,5 @@
-import Wrapper from "../assets/wrappers/Navbar"
-import { FaHome } from 'react-icons/fa'
+import Wrapper from "../assets/wrappers/Navbar";
+import { FaHome } from 'react-icons/fa';
 
 const Navbar = () => {
     return (
@@ -10,4 +10,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar;
