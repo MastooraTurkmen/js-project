@@ -11,7 +11,9 @@ const Navbar = () => {
     return (
         <Wrapper>
             <div className="nav-center">
-                
+                <button type="button" className="toggle-btn" onClick={() => console.log('toggle-sidebar')}>
+                    
+                </button>
             </div>
         </Wrapper>
     )
