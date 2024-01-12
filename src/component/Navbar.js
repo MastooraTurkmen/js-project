@@ -1,5 +1,5 @@
 import Wrapper from "../assets/wrappers/Navbar";
-import { FaHome, FaUserCircle, FaCaretDown } from 'react-icons/fa';
+import { FaAlignLeft, FaUserCircle, FaCaretDown } from 'react-icons/fa';
 import Logo from "./Logo";
 import { useState } from "react";
 
@@ -7,7 +7,6 @@ const Navbar = () => {
     return (
         <Wrapper>
             <div>Navbar</div>
-            <FaHome />
         </Wrapper>
     )
 }
