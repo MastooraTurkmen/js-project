@@ -20,7 +20,7 @@ const Navbar = () => {
                 </div>
                 <div className="btn-container">
                     <button type="button" className="btn" onClick={() => console.log('toggle logout dropdwon')}>
-
+                        <FaUserCircle />
                     </button>
                 </div>
             </div>
