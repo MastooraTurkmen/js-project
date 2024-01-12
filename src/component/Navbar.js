@@ -10,7 +10,9 @@ const Navbar = () => {
 
     return (
         <Wrapper>
-            <div>Navbar</div>
+            <div className="nav-center">
+                
+            </div>
         </Wrapper>
     )
 }
