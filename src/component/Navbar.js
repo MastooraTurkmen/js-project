@@ -21,6 +21,8 @@ const Navbar = () => {
                 <div className="btn-container">
                     <button type="button" className="btn" onClick={() => console.log('toggle logout dropdwon')}>
                         <FaUserCircle />
+                        {user?.name}
+                        <FaCaretDown />
                     </button>
                 </div>
             </div>
