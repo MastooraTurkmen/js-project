@@ -30,6 +30,11 @@ export const loginUser = createAsyncThunk('user/loginUser', async (user, thunkAP
 const userSlice = createSlice({
     name: 'user',
     initialState,
+    reducers: {
+        toggleSidebar: (state) => {
+            state.isSidebarOpen = !state
+        }
+    },
     extraReducers: (builder) => {
         builder
             .addCase(registerUser.pending, (state) => {
