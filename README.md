@@ -969,8 +969,6 @@ import { toggleSidebar, logoutUser } from "../features/user/userSlice";
 
 #### 33) Restrict Access
 
-- pages/ProtectedRoute.js
-
 ```js
 import { Navigate } from "react-router-dom";
 import { useSelector } from "react-redux";
