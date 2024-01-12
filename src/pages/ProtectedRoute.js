@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 
-const ProtectedRoute = () => {
+const ProtectedRoute = ({children}) => {
   return (
     <div>ProtectedRoute</div>
   )
