@@ -1,5 +1,5 @@
 import Wrapper from "../assets/wrappers/Navbar";
-import { FaHome, FaUserCircle } from 'react-icons/fa';
+import { FaHome, FaUserCircle, FaCaretDown } from 'react-icons/fa';
 
 const Navbar = () => {
     return (
