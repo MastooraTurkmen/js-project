@@ -14,6 +14,10 @@ const Navbar = () => {
                 <button type="button" className="toggle-btn" onClick={() => console.log('toggle-sidebar')}>
                     <FaAlignLeft />
                 </button>
+                <div>
+                    <Logo />
+                    <h3 className="logo-text">dashboard</h3>
+                </div>
             </div>
         </Wrapper>
     )
