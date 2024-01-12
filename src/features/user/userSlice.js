@@ -33,6 +33,9 @@ const userSlice = createSlice({
     reducers: {
         toggleSidebar: (state) => {
             state.isSidebarOpen = !state.isSidebarOpen
+        },
+        loginUser: () => {
+            state.user = null
         }
     },
     extraReducers: (builder) => {
