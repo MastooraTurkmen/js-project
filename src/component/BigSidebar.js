@@ -1,4 +1,5 @@
 import Wrapper from "../assets/wrappers/BigSidebar"
+import NavLinks from "./NavLinks";
 
 const BigSidebar = () => {
     return (
