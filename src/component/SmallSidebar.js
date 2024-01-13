@@ -27,9 +27,14 @@ const SmallSidebar = () => {
                     <div className="nav-links">
                         {links.map((link) => {
                             const { text, path, id, icon } = link
-                            return <NavLink to={path} className={({ isActive }) => {
-                                return isActive ? 'nav-link active' : 'nav-link'
-                            }} />
+                            return <NavLink
+                                to={path}
+                                className={({ isActive }) => {
+                                    return isActive ? 'nav-link active' : 'nav-link'
+                                }}
+                                key={id}
+                                onClick={toggle}
+                            />
                         })}
                     </div>
                 </div>
