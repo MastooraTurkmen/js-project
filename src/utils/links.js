@@ -16,6 +16,12 @@ const links = [
         path: 'all-jobs',
         icon: <MdQueryStats />
     },
+    {
+        id: 3,
+        text: 'add job',
+        path: 'all-job',
+        icon: <FaWpforms />
+    },
 ]
 
 export default links;
