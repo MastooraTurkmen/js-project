@@ -6,6 +6,7 @@ import { useSelector, useDispatch } from "react-redux";
 
 const SmallSidebar = () => {
     const { isSidebarOpen } = useSelector((store) => store.user)
+    const dispatch = useDispatch()
 
     return (
         <Wrapper>
