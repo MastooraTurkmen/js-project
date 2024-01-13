@@ -1143,8 +1143,6 @@ end
 
 #### 44) Nav Links Component
 
-- also can setup in links.js, preference
-
 ```js
 import { NavLink } from "react-router-dom";
 import links from "../utils/links";
