@@ -1,4 +1,6 @@
 import Wrapper from "../assets/wrappers/SmallSidebar"
+import { FaTimes } from "react-icons/fa";
+
 
 const SmallSidebar = () => {
     return (
