@@ -12,6 +12,9 @@ const SmallSidebar = () => {
                     <button className="close-btn" onClick={() => console.log('toggle')}>
                         <FaTimes />
                     </button>
+                    <header>
+                        <Logo />
+                    </header>
                 </div>
             </div>
         </Wrapper>
