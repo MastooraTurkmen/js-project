@@ -9,7 +9,13 @@ const links = [
         text: 'stats',
         path: '/',
         icon: <IoBarChartSharp />
-    }
+    },
+    {
+        id: 2,
+        text: 'all jobs',
+        path: 'all-jobs',
+        icon: <MdQueryStats />
+    },
 ]
 
 export default links;
