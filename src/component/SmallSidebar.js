@@ -3,10 +3,15 @@ import { FaTimes } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
 import { useSelector, useDispatch } from "react-redux";
+import { toggleSidebar } from "../features/user/userSlice";
 
 const SmallSidebar = () => {
     const { isSidebarOpen } = useSelector((store) => store.user)
     const dispatch = useDispatch()
+
+    const toggle = () => {
+        dispatch(toggleSidebar())
+    }
 
     return (
         <Wrapper>
