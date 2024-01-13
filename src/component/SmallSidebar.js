@@ -15,6 +15,9 @@ const SmallSidebar = () => {
                     <header>
                         <Logo />
                     </header>
+                    <div className="nav-links">
+                        nav links
+                    </div>
                 </div>
             </div>
         </Wrapper>
