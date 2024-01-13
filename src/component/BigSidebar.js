@@ -4,7 +4,7 @@ import Logo from "../components/Logo";
 import { useSelector } from "react-redux";
 
 const BigSidebar = () => {
-    const { isSidebarOpen } = useSelector()
+    const { isSidebarOpen } = useSelector((store) => store.user)
 
     return (
         <Wrapper>
