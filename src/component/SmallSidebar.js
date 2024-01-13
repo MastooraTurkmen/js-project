@@ -5,6 +5,8 @@ import Logo from "./Logo";
 import { useSelector, useDispatch } from "react-redux";
 
 const SmallSidebar = () => {
+    const { isSidebarOpen } = useSelector((store) => store.user)
+
     return (
         <Wrapper>
             <div className="sidebar-container show-sidebar">
