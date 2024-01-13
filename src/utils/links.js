@@ -22,6 +22,12 @@ const links = [
         path: 'all-job',
         icon: <FaWpforms />
     },
+    {
+        id: 4,
+        text: 'profile',
+        path: 'profile',
+        icon: <ImProfile />
+    },
 ]
 
 export default links;
