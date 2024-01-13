@@ -1143,7 +1143,6 @@ end
 
 #### 44) Nav Links Component
 
-- styles still set from Wrapper
 - also can setup in links.js, preference
 
 ```js
