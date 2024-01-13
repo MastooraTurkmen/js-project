@@ -3,6 +3,13 @@ import { MdQueryStats } from "react-icons/md";
 import { FaWpforms } from "react-icons/fa";
 import { ImProfile } from "react-icons/im";
 
-const links = []
+const links = [
+    {
+        id: 1,
+        text: 'stats',
+        path: '/',
+        icon: <IoBarChartSharp />
+    }
+]
 
 export default links;
