@@ -7,7 +7,9 @@ import { useSelector, useDispatch } from "react-redux";
 const SmallSidebar = () => {
     return (
         <Wrapper>
-            <div>SmallSidebar</div>
+            <div className="sidebar-container show-sidebar">
+                
+            </div>
         </Wrapper>
     )
 }
