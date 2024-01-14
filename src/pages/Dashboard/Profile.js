@@ -18,7 +18,7 @@ const Profile = () => {
         const { name, email, lastName, location } = userData()
         e.preventDefault()
         if (!name || !email || !lastName || !location) {
-            
+            toast.error('please fill out all fields')
         }
     }
 
