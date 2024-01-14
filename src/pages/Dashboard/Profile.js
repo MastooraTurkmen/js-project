@@ -52,6 +52,12 @@ const Profile = () => {
                         value={userData.email}
                         handleChange={handleChange}
                     />
+                    <FormRow
+                        type='location'
+                        name='location'
+                        value={userData.location}
+                        handleChange={handleChange}
+                    />
                 </div>
             </form>
         </Wrapper>
