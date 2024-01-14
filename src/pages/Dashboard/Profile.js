@@ -30,7 +30,11 @@ const Profile = () => {
     }
 
     return (
-        <h1>Profile</h1>
+        <Wrapper>
+            <form className="form" onSubmit={handleSubmit}>
+                <h3>profile</h3>
+            </form>
+        </Wrapper>
     )
 }
 
