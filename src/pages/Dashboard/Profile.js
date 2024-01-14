@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { FormRow } from '../../component';
+import Wrapper from "../../assets/wrappers/DashboardFormPage";
 
 const Profile = () => {
     return (
