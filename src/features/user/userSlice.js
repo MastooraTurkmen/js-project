@@ -29,7 +29,16 @@ export const loginUser = createAsyncThunk('user/loginUser', async (user, thunkAP
 
 export const updateUser = createAsyncThunk(
     'user/updateUser', async (user, thunkAPI) => {
-
+        try {
+            const resp = await customFetch.post('auth/updateUser', user, {
+                headers: {
+                    authorization: `Bearer ${thunkAPI.getState().user.user.token}`
+                }
+            })
+            return resp.data;
+        } catch (error) {
+            return thunkAPI.rejectWithValue(error.response.data.msg)
+        }
     }
 )
 
