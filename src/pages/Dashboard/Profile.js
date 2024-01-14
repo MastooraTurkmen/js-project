@@ -9,6 +9,7 @@ const Profile = () => {
     const dispatch = useDispatch()
     const [userData, setUserData] = useState({
         name: user?.name || '',
+        email: user?.email || '',
     })
 
     return (
