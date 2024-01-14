@@ -33,6 +33,13 @@ const Profile = () => {
         <Wrapper>
             <form className="form" onSubmit={handleSubmit}>
                 <h3>profile</h3>
+                <div className="form-center">
+                    <FormRow
+                        type='text'
+                        name='name'
+                        value={userData.name}
+                    />
+                </div>
             </form>
         </Wrapper>
     )
