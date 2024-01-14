@@ -19,6 +19,7 @@ const Profile = () => {
         e.preventDefault()
         if (!name || !email || !lastName || !location) {
             toast.error('please fill out all fields')
+            return;
         }
     }
 
