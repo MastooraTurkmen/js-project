@@ -38,6 +38,7 @@ const Profile = () => {
                         type='text'
                         name='name'
                         value={userData.name}
+                        handleChange={handleChange}
                     />
                 </div>
             </form>
