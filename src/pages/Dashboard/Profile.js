@@ -17,7 +17,9 @@ const Profile = () => {
     const handleSubmit = (e) => {
         const { name, email, lastName, location } = userData()
         e.preventDefault()
-        if (!name)
+        if (!name || !email || !lastName || !location) {
+            
+        }
     }
 
     return (
