@@ -7,6 +7,9 @@ import { toast } from "react-toastify";
 const Profile = () => {
     const { isLoading, user } = useSelector((store) => store.user)
     const dispatch = useDispatch()
+    const [userData, setUserData] = useState({
+        name: user?.name || '',
+    })
 
     return (
         <h1>Profile</h1>
