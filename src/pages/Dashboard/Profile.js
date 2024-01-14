@@ -11,6 +11,7 @@ const Profile = () => {
         name: user?.name || '',
         email: user?.email || '',
         lastName: user?.lastName || '',
+        location: user?.location || '',
     })
 
     return (
