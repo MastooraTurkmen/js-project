@@ -23,6 +23,11 @@ const Profile = () => {
         }
     }
 
+    const handleChange = (e) => {
+        const name = e.target.name;
+        const value = e.target.value;
+    }
+
     return (
         <h1>Profile</h1>
     )
