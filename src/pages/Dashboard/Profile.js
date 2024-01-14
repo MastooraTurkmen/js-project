@@ -40,6 +40,12 @@ const Profile = () => {
                         value={userData.name}
                         handleChange={handleChange}
                     />
+                    <FormRow
+                        type='text'
+                        name='lastName'
+                        value={userData.lastName}
+                        handleChange={handleChange}
+                    />
                 </div>
             </form>
         </Wrapper>
