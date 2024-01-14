@@ -14,6 +14,10 @@ const Profile = () => {
         location: user?.location || '',
     })
 
+    const handleSubmit = (e) => {
+        e.preventDefault()
+    }
+
     return (
         <h1>Profile</h1>
     )
