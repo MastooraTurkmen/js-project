@@ -1052,8 +1052,6 @@ return (
 
 #### 36) Setup Links
 
-- create utils/links.js
-
 ```js
 import { IoBarChartSharp } from "react-icons/io5";
 import { MdQueryStats } from "react-icons/md";
