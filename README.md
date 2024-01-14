@@ -658,8 +658,6 @@ export const loginUser = createAsyncThunk(
 
 #### 24) LocalStorage
 
-- utils/localStorage.js
-
 ```js
 export const addUserToLocalStorage = (user) => {
   localStorage.setItem("user", JSON.stringify(user));
