@@ -120,8 +120,6 @@ export default Logo;
 npm install react-router-dom@6
 ```
 
-- import three components from router
-
 ```js
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Error, Landing, Register, Dashboard } from "./pages";
