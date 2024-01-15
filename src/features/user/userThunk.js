@@ -21,7 +21,7 @@ export const loginUserThunk = async (url, user, thunkAPI) => {
 
 export const updateUserThunk = async (url, user, thunkAPI) => {
     try {
-        const resp = await customFetch.post('auth/updateUser', user, {
+        const resp = await customFetch.post(url, user, {
             headers: {
                 authorization: `Bearer ${thunkAPI.getState().user.user.token}`
             }
