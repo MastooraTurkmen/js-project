@@ -37,7 +37,9 @@ export const updateUser = createAsyncThunk(
             })
             return resp.data;
         } catch (error) {
-            console.log(error.response);
+            if (error.response.status === 401) {
+                thunkAPI.dispatch(logoutUser());
+            }
             return thunkAPI.rejectWithValue(error.response.data.msg)
         }
     }
