@@ -1,4 +1,5 @@
 import { FormRow } from "../../components";
+import Wrapper from "../../assets/wrappers/DashboardFormPage";
 
 
 const AddJob = () => {
