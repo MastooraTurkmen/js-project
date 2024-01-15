@@ -1,6 +1,6 @@
 import { FormRow } from "../../components";
 import Wrapper from "../../assets/wrappers/DashboardFormPage";
-
+import { useSelector, useDispatch } from "react-redux";
 
 const AddJob = () => {
     return (
