@@ -9,3 +9,7 @@ export const registerUserThunk = async (url, user, thunkAPI) => {
         return thunkAPI.rejectWithValue(error.response.data.msg)
     }
 }
+
+export const loginUserThunk = async (url, user, thunkAPI) => {
+    
+}
