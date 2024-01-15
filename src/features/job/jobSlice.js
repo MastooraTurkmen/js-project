@@ -15,3 +15,8 @@ const initialState = {
     isEditing: false,
     editJobId: "",
 };
+
+const jobSlice = createSlice({
+    name: 'job',
+    initialState
+})
