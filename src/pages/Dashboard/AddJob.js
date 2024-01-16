@@ -10,6 +10,11 @@ const AddJob = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
+
+        if (!position || !company || !jobLocation) {
+            toast.error('Please fill out all fields')
+            return
+        }
     }
 
     return (
