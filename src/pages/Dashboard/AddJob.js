@@ -50,6 +50,7 @@ const AddJob = () => {
                         labelText='job location'
                         handleChange={handleJobInput}
                     />
+                    {/* status */}
                     <div className="btn-container">
                         <button
                             type="button"
