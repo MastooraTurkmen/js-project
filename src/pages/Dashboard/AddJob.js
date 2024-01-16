@@ -29,6 +29,12 @@ const AddJob = () => {
                 <h3>{isEditing ? 'edit job' : 'add job'}</h3>
                 <div className="form-center">
                     {/* position */}
+                    <FormRow
+                        type='text'
+                        name='position'
+                        value={position}
+                        handleChange={handleJobInput}
+                    />
                 </div>
             </form>
         </Wrapper>
