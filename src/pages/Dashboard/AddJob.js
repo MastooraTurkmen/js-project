@@ -52,7 +52,9 @@ const AddJob = () => {
                     />
                     {/* status */}
                     <div className="form-row">
-                        
+                        <label htmlFor="status" className="form-label">
+                            status
+                        </label>
                     </div>
 
                     <div className="btn-container">
