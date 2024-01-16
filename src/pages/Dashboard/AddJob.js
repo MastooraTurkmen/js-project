@@ -55,6 +55,14 @@ const AddJob = () => {
                         <label htmlFor="status" className="form-label">
                             status
                         </label>
+                        <select
+                            name="status"
+                            id="status"
+                            value={status}
+                            onChange={handleJobInput}
+                            className="form-select">
+
+                        </select>
                     </div>
 
                     <div className="btn-container">
