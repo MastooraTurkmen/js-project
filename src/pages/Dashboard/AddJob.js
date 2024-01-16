@@ -47,8 +47,10 @@ const AddJob = () => {
                         type='text'
                         name='jobLocation'
                         value={jobLocation}
+                        labelText='job location'
                         handleChange={handleJobInput}
                     />
+                   
                 </div>
             </form>
         </Wrapper>
