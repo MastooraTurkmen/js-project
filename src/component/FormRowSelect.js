@@ -14,7 +14,9 @@ const FormRowSelect = () => {
             >
                 {list.map((itemValue, index) => {
                     return (
-                        
+                        <option key={index} value={itemValue}>
+                            {itemValue}
+                        </option>
                     );
                 })}
             </select>
