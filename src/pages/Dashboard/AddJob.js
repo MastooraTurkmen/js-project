@@ -1,4 +1,4 @@
-import { FormRow } from "../../components";
+import { FormRow } from "../../component";
 import Wrapper from "../../assets/wrappers/DashboardFormPage";
 import { useSelector, useDispatch } from "react-redux";
 import { toast } from "react-toastify";
