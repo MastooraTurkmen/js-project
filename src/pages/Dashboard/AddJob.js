@@ -26,7 +26,7 @@ const AddJob = () => {
     return (
         <Wrapper>
             <form className="form">
-                
+                <h3>{isEditing ? 'edit job' : 'add job'}</h3>
             </form>
         </Wrapper>
     )
