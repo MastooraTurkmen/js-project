@@ -27,6 +27,9 @@ const AddJob = () => {
         <Wrapper>
             <form className="form">
                 <h3>{isEditing ? 'edit job' : 'add job'}</h3>
+                <div className="form-center">
+                    {/* position */}
+                </div>
             </form>
         </Wrapper>
     )
