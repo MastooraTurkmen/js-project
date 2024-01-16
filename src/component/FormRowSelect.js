@@ -5,7 +5,15 @@ const FormRowSelect = () => {
             <label htmlFor={name} className="form-label">
                 {labelText || name}
             </label>
-           
+            <select
+                name={name}
+                value={value}
+                id={name}
+                onChange={handleChange}
+                className="form-select"
+            >
+                
+            </select>
         </div>
     );
 }
