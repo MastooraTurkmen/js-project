@@ -62,7 +62,9 @@ const AddJob = () => {
                             onChange={handleJobInput}
                             className="form-select"
                         >
-                            
+                            {statusOptions.map((itemValue, index) => {
+                                return <option key={index} value={itemValue}></option>
+                            })}
                         </select>
                     </div>
 
