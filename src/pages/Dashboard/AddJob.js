@@ -7,6 +7,11 @@ const AddJob = () => {
     const { isLoading, position, company,
         jobLocation, jobType, jobTypeOptions,
         status, statusOptions, isEditing, editJobId } = useSelector((store) => store.job)
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+    }
+
     return (
         <h1>AddJob</h1>
     )
