@@ -24,7 +24,11 @@ const AddJob = () => {
     }
 
     return (
-        <h1>AddJob</h1>
+        <Wrapper>
+            <form className="form">
+                
+            </form>
+        </Wrapper>
     )
 }
 
