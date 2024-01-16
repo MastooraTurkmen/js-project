@@ -60,8 +60,9 @@ const AddJob = () => {
                             id="status"
                             value={status}
                             onChange={handleJobInput}
-                            className="form-select">
-
+                            className="form-select"
+                        >
+                            
                         </select>
                     </div>
 
