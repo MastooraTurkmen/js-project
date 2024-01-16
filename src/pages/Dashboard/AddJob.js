@@ -51,10 +51,13 @@ const AddJob = () => {
                         handleChange={handleJobInput}
                     />
                     <div className="btn-container">
-                        <button type="button">
-                            
+                        <button
+                            type="button"
+                            className="btn btn-blcok clear-btn"
+                            onClick={() => console.log('clear values')}>
+                            clear
                         </button>
-                   </div>
+                    </div>
                 </div>
             </form>
         </Wrapper>
