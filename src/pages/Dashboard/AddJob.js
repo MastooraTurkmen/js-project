@@ -50,7 +50,11 @@ const AddJob = () => {
                         labelText='job location'
                         handleChange={handleJobInput}
                     />
-                   
+                    <div className="btn-container">
+                        <button type="button">
+                            
+                        </button>
+                   </div>
                 </div>
             </form>
         </Wrapper>
