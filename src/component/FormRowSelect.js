@@ -12,7 +12,11 @@ const FormRowSelect = () => {
                 onChange={handleChange}
                 className="form-select"
             >
-                
+                {list.map((itemValue, index) => {
+                    return (
+                        
+                    );
+                })}
             </select>
         </div>
     );
