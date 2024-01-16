@@ -57,6 +57,14 @@ const AddJob = () => {
                             onClick={() => console.log('clear values')}>
                             clear
                         </button>
+                        <button
+                            type="submit"
+                            className="btn btn-blcok submit-btn"
+                            onClick={handleSubmit}
+                            disabled={isLoading}
+                        >
+                            submit
+                        </button>
                     </div>
                 </div>
             </form>
