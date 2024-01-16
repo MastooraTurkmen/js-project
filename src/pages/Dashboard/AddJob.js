@@ -17,6 +17,10 @@ const AddJob = () => {
         }
     }
 
+    const handleJobInput = (e) => {
+        const name = e.target.name;
+    }
+
     return (
         <h1>AddJob</h1>
     )
