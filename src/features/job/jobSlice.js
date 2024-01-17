@@ -20,8 +20,8 @@ const jobSlice = createSlice({
     name: 'job',
     initialState,
     reducers: {
-        handleChange = () => {
-            
+        handleChange: (state, { payload: { name, value } }) => {
+            state[name]
         }
     }
 })
