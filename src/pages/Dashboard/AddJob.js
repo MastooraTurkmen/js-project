@@ -54,6 +54,7 @@ const AddJob = () => {
                     <FormRowSelect
                         name='status'
                         value={status}
+                        handleChange={handleJobInput}
                     />
 
                     <div className="btn-container">
