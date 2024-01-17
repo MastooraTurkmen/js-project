@@ -65,7 +65,7 @@ const AddJob = () => {
                         handleChange={handleJobInput}
                         list={jobTypeOptions}
                     />
-
+                    {/* buttons */}
                     <div className="btn-container">
                         <button
                             type="button"
