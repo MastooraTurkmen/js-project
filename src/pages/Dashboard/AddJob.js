@@ -9,6 +9,8 @@ const AddJob = () => {
         jobLocation, jobType, jobTypeOptions,
         status, statusOptions, isEditing, editJobId } = useSelector((store) => store.job)
 
+    const dispatch = useDispatch()
+
     const handleSubmit = (e) => {
         e.preventDefault()
 
