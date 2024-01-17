@@ -55,6 +55,7 @@ const AddJob = () => {
                         name='status'
                         value={status}
                         handleChange={handleJobInput}
+                        list={statusOptions}
                     />
 
                     <div className="btn-container">
