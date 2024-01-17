@@ -3,6 +3,7 @@ import Wrapper from "../../assets/wrappers/DashboardFormPage";
 import { useSelector, useDispatch } from "react-redux";
 import { toast } from "react-toastify";
 import { clearValues, handleChange } from "../../features/job/jobSlice";
+import { useEffect } from "react";
 
 const AddJob = () => {
     const { isLoading, position, company,
@@ -26,6 +27,13 @@ const AddJob = () => {
         const value = e.target.value;
         dispatch(handleChange({ name, value }))
     }
+
+    useEffect(() => {
+        dispatch(handleChange({
+            name: 'jobLocation',
+            value: user.location,
+        }))
+    }, [])
 
     return (
         <Wrapper>
