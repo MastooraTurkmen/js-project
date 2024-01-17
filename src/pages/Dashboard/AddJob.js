@@ -51,7 +51,9 @@ const AddJob = () => {
                         handleChange={handleJobInput}
                     />
                     {/* status */}
-                    <FormRowSelect />
+                    <FormRowSelect
+                        name='status'
+                    />
 
                     <div className="btn-container">
                         <button
