@@ -2,6 +2,7 @@ import { FormRow, FormRowSelect } from "../../component";
 import Wrapper from "../../assets/wrappers/DashboardFormPage";
 import { useSelector, useDispatch } from "react-redux";
 import { toast } from "react-toastify";
+import { handleChange } from "../../features/job/jobSlice";
 
 const AddJob = () => {
     const { isLoading, position, company,
