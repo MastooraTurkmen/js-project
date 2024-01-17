@@ -10,3 +10,8 @@ const initialFiltersState = {
     sortOptions: ["latest", "oldest", "a-z", "z-a"],
 };
 
+const initialState = {
+    isLoading: false,
+    jobs: [],
+
+};
