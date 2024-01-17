@@ -53,6 +53,7 @@ const AddJob = () => {
                     {/* status */}
                     <FormRowSelect
                         name='status'
+                        value={status}
                     />
 
                     <div className="btn-container">
