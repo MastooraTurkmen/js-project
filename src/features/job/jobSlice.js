@@ -26,4 +26,5 @@ const jobSlice = createSlice({
     }
 })
 
+export const { handleChange } = jobSlice.actions
 export default jobSlice.reducer;
