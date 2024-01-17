@@ -20,3 +20,7 @@ const initialState = {
     monthlyApplications: [],
     ...initialFiltersState,
 };
+
+const allJobsSlice = createSlice({
+    name: 'allJobs'
+})
