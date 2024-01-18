@@ -5,6 +5,8 @@ import { useSelector, useDispatch } from "react-redux";
 
 const JobsContainer = () => {
     const { jobs, isLoading } = useSelector((store) => store.allJobs);
+    const dispatch = useDispatch();
+    
     return (
         <h1>JobsContainer</h1>
     )
