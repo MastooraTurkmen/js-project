@@ -1918,7 +1918,6 @@ export const store = configureStore({
 
 #### 51) AllJobs Page Structure
 
-- create
 - components/SearchContainer.js
 - components/JobsContainer.js
 - components/Job.js
