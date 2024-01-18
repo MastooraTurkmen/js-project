@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Job from "./Job";
 
 const JobsContainer = () => {
     return (
