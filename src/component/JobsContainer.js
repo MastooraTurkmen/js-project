@@ -24,6 +24,11 @@ const JobsContainer = () => {
     return (
         <Wrapper>
             <h5>jobs info</h5>
+            <div className="jobs">
+                {jobs.map(() => {
+                    
+                })}
+            </div>
         </Wrapper>
     )
 }
