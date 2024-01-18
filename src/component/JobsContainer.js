@@ -13,6 +13,14 @@ const JobsContainer = () => {
         </Wrapper>
     }
 
+    if (jobs.length === 0) {
+        return (
+            <Wrapper>
+                
+            </Wrapper>
+        )
+    }
+
     return (
         <h1>JobsContainer</h1>
     )
