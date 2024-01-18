@@ -8,5 +8,4 @@ import Job from "./Job";
 import JobsContainer from "./JobsContainer";
 import SearchContainer from "./SearchContainer";
 
-
-export { Logo, FormRow, Navbar, BigSidebar, SmallSidebar, FormRowSelect, Job, JobsContainer }
+export { Logo, FormRow, Navbar, BigSidebar, SmallSidebar, FormRowSelect, Job, JobsContainer, SearchContainer }
