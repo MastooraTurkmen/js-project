@@ -22,5 +22,6 @@ const initialState = {
 };
 
 const allJobsSlice = createSlice({
-    name: 'allJobs'
-})
+    name: 'allJobs',
+    initialState,
+});
