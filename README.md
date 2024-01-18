@@ -1918,8 +1918,6 @@ export const store = configureStore({
 
 #### 51) AllJobs Page Structure
 
-- import/export
-
 AllJobs.js
 
 ```js
