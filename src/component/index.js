@@ -7,4 +7,4 @@ import FormRowSelect from "./FormRowSelect";
 import Job from "./Job";
 import JobsContainer from "./JobsContainer";
 
-export { Logo, FormRow, Navbar, BigSidebar, SmallSidebar, FormRowSelect, Job }
+export { Logo, FormRow, Navbar, BigSidebar, SmallSidebar, FormRowSelect, Job, JobsContainer }
