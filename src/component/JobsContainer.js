@@ -22,7 +22,9 @@ const JobsContainer = () => {
     }
 
     return (
-        <h1>JobsContainer</h1>
+        <Wrapper>
+            <h5>jobs info</h5>
+        </Wrapper>
     )
 }
 
