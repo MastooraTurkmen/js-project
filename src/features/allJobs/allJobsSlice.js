@@ -50,6 +50,7 @@ const allJobsSlice = createSlice({
         },
         [getAllJobs.rejected]: (state) => {
             state.isLoading = false;
+            toast.error(payload)
         }
     }
 });
