@@ -2002,8 +2002,6 @@ if (isLoading) {
 
 #### 53) GetAllJobs Request
 
-allJobsSlice.js
-
 ```js
 export const getAllJobs = createAsyncThunk(
   'allJobs/getJobs',
