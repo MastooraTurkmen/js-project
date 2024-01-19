@@ -43,6 +43,9 @@ const allJobsSlice = createSlice({
     extraReducers: {
         [getAllJobs.pending]: (state) => {
             state.isLoading = true;
+        },
+        [getAllJobs.fulfilled]: (state) => {
+            state.isLoading = true;
         }
     }
 });
