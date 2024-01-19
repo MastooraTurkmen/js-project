@@ -2002,8 +2002,6 @@ if (isLoading) {
 
 #### 53) GetAllJobs Request
 
-- returns {jobs:[],totalJobs:number, numOfPages:number }
-
 allJobsSlice.js
 
 ```js
