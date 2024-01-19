@@ -9,9 +9,7 @@ const JobsContainer = () => {
     const dispatch = useDispatch();
 
     if (isLoading) {
-        return <Wrapper>
-            <h2>Loading...</h2>
-        </Wrapper>
+        return <Loading />
     }
 
     if (jobs.length === 0) {
