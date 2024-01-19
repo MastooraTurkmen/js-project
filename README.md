@@ -2002,7 +2002,6 @@ if (isLoading) {
 
 #### 53) GetAllJobs Request
 
-- authorization header : 'Bearer token'
 - returns {jobs:[],totalJobs:number, numOfPages:number }
 
 allJobsSlice.js
