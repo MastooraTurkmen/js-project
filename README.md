@@ -2004,7 +2004,7 @@ if (isLoading) {
 
 ```js
 export const getAllJobs = createAsyncThunk(
-  'allJobs/getJobs',
+  "allJobs/getJobs",
   async (_, thunkAPI) => {
     let url = `/jobs`;
 
@@ -2024,20 +2024,20 @@ export const getAllJobs = createAsyncThunk(
 
 // extra reducers
 
-extraReducers: {
-    [getAllJobs.pending]: (state) => {
+extraReducers: (builder) => {
+  builder
+    .addCase(getAllJobs.pending, (state) => {
       state.isLoading = true;
-    },
-    [getAllJobs.fulfilled]: (state, { payload }) => {
+    })
+    .addCase(getAllJobs.fulfilled, (state, { payload }) => {
       state.isLoading = false;
       state.jobs = payload.jobs;
-    },
-    [getAllJobs.rejected]: (state, { payload }) => {
+    })
+    .addCase(getAllJobs.rejected, (state, { payload }) => {
       state.isLoading = false;
       toast.error(payload);
-    },
-}
-
+    });
+};
 ```
 
 JobsContainer.js
