@@ -49,6 +49,9 @@ const allJobsSlice = createSlice({
                 state.isLoading = false;
                 state.jobs = payload.jobs
             })
+            .addCase(getAllJobs.rejected, (state, { payload }) => {
+                state.isLoading = false;
+            })
         [getAllJobs.rejected]: (state, { payload }) => {
             state.isLoading = false;
             toast.error(payload)
