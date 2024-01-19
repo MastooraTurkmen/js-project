@@ -46,6 +46,9 @@ const allJobsSlice = createSlice({
         },
         [getAllJobs.fulfilled]: (state) => {
             state.isLoading = true;
+        },
+        [getAllJobs.rejected]: (state) => {
+            state.isLoading = true;
         }
     }
 });
