@@ -44,8 +44,8 @@ const allJobsSlice = createSlice({
         [getAllJobs.pending]: (state) => {
             state.isLoading = true;
         },
-        [getAllJobs.fulfilled]: (state) => {
-            state.isLoading = true;
+        [getAllJobs.fulfilled]: (state, { payload }) => {
+            state.isLoading = false;
         },
         [getAllJobs.rejected]: (state) => {
             state.isLoading = true;
