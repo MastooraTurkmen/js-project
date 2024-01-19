@@ -45,14 +45,14 @@ const allJobsSlice = createSlice({
             .addCase(getAllJobs.pending, (state) => {
                 state.isLoading = true;
             })
-        [getAllJobs.fulfilled]: (state, { payload }) => {
-            state.isLoading = false;
-            state.jobs = payload.jobs
-        },
-            [getAllJobs.rejected]: (state, { payload }) => {
+            .addCase(getAllJobs.fulfilled, (state, { payload }) => {
                 state.isLoading = false;
-                toast.error(payload)
-            }
+                state.jobs = payload.jobs
+            })
+        [getAllJobs.rejected]: (state, { payload }) => {
+            state.isLoading = false;
+            toast.error(payload)
+        }
     }
 });
 
