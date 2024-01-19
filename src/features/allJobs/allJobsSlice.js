@@ -41,17 +41,18 @@ const allJobsSlice = createSlice({
     name: 'allJobs',
     initialState,
     extraReducers: (builder) => {
-        [getAllJobs.pending]: (state) => {
-            state.isLoading = true;
+        builder
+            .addCase(getAllJobs.pending, (state) => {
+                state.isLoading = true;
+            })
+        [getAllJobs.fulfilled]: (state, { payload }) => {
+            state.isLoading = false;
+            state.jobs = payload.jobs
         },
-            [getAllJobs.fulfilled]: (state, { payload }) => {
+            [getAllJobs.rejected]: (state, { payload }) => {
                 state.isLoading = false;
-                state.jobs = payload.jobs
-            },
-                [getAllJobs.rejected]: (state, { payload }) => {
-                    state.isLoading = false;
-                    toast.error(payload)
-                }
+                toast.error(payload)
+            }
     }
 });
 
