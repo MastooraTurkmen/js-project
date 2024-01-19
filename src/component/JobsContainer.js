@@ -21,10 +21,6 @@ const JobsContainer = () => {
         )
     }
 
-    useEffect(() => {
-        dispatch(getAllJobs())
-    }, [])
-
     return (
         <Wrapper>
             <h5>jobs info</h5>
