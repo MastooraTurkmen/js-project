@@ -21,6 +21,10 @@ const initialState = {
     ...initialFiltersState,
 };
 
+export const getAllJobs = createAsyncThunk('allJobs/getJobs', async (_, thunkAPI) => {
+    
+})
+
 const allJobsSlice = createSlice({
     name: 'allJobs',
     initialState,
