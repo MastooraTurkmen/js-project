@@ -48,7 +48,7 @@ const allJobsSlice = createSlice({
             state.isLoading = false;
             state.jobs = payload.jobs
         },
-        [getAllJobs.rejected]: (state) => {
+        [getAllJobs.rejected]: (state, { payload }) => {
             state.isLoading = false;
             toast.error(payload)
         }
