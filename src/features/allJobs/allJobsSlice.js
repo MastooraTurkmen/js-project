@@ -22,7 +22,12 @@ const initialState = {
 };
 
 export const getAllJobs = createAsyncThunk('allJobs/getJobs', async (_, thunkAPI) => {
-    
+    let url = `/jobs`
+    try {
+
+    } catch (error) {
+        console.log(error);
+    }
 })
 
 const allJobsSlice = createSlice({
