@@ -38,6 +38,7 @@ const Job = ({
                             Edit{''}
                         </Link>
                         <button
+                            type="button"
                             className="btn delete-btn"
                             onClick={() => console.log('delete job')}
                         >
