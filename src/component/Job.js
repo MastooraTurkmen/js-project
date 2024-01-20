@@ -3,7 +3,11 @@ import { Link } from "react-router-dom";
 import Wrapper from "../assets/wrappers/Job";
 import { useDispatch } from "react-redux";
 
-const Job = () => {
+const Job = ({
+    _id,
+    position,
+    
+}) => {
     return (
         <h1>Job</h1>
     )
