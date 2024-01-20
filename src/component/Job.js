@@ -16,7 +16,7 @@ const Job = ({
 }) => {
     const dispatch = useDispatch()
 
-    const date = createdAt
+    const date = moment(createdAt).format('MMM Do, YYYY')
 
     return (
         <Wrapper>
