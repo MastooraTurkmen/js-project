@@ -28,6 +28,11 @@ const Job = ({
                     <h4>more content</h4>
                     <div className={`status ${status}`}>{status}</div>
                 </div>
+                <footer>
+                    <div className="action">
+                        <Link className="btn edit-btn" />
+                    </div>
+                </footer>
             </div>
         </Wrapper>
     )
