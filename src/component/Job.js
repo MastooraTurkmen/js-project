@@ -23,7 +23,9 @@ const Job = ({
                     <p>{company}</p>
                 </div>
             </header>
-           
+            <div className="content">
+                <div className="content-center"></div>
+            </div>
         </Wrapper>
     )
 }
