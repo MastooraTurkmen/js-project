@@ -29,7 +29,7 @@ const Job = ({
             </header>
             <div className="content">
                 <div className="content-center">
-                    <h4>more content</h4>
+                    <JobInfo icon={<FaLocationArrow />} text={jobLocation} />
                     <div className={`status ${status}`}>{status}</div>
                 </div>
                 <footer>
