@@ -14,7 +14,9 @@ const Job = ({
 }) => {
     const dispatch = useDispatch()
     return (
-        <h1>Job</h1>
+        <header>
+            <div className="main-icon"></div>
+        </header>
     )
 }
 
