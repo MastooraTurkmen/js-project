@@ -15,7 +15,7 @@ const Job = ({
     const dispatch = useDispatch()
     return (
         <header>
-            <div className="main-icon"></div>
+            <div className="main-icon">{company.charAt(0)}</div>
         </header>
     )
 }
