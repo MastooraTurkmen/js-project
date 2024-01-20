@@ -30,7 +30,10 @@ const Job = ({
                 </div>
                 <footer>
                     <div className="action">
-                        <Link className="btn edit-btn" />
+                        <Link
+                            className="btn edit-btn"
+                            to='/add-job'
+                        />
                     </div>
                 </footer>
             </div>
