@@ -12,6 +12,7 @@ const Job = ({
     createdAt,
     status,
 }) => {
+    const dispatch = useDispatch()
     return (
         <h1>Job</h1>
     )
