@@ -16,6 +16,9 @@ const Job = ({
     return (
         <header>
             <div className="main-icon">{company.charAt(0)}</div>
+            <div className="info">
+                <h5>{position}</h5>
+            </div>
         </header>
     )
 }
