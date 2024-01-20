@@ -33,7 +33,16 @@ const Job = ({
                         <Link
                             className="btn edit-btn"
                             to='/add-job'
-                        />
+                            onClick={() => console.log('edit job')}
+                        >
+                            Edit{''}
+                        </Link>
+                        <button
+                            className="btn delete-btn"
+                            onClick={() => console.log('delete job')}
+                        >
+                            delete
+                        </button>
                     </div>
                 </footer>
             </div>
