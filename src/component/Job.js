@@ -6,7 +6,11 @@ import { useDispatch } from "react-redux";
 const Job = ({
     _id,
     position,
-    
+    company,
+    jobLocation,
+    jobType,
+    createdAt,
+    status,
 }) => {
     return (
         <h1>Job</h1>
