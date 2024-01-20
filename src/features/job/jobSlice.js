@@ -17,6 +17,10 @@ const initialState = {
     editJobId: "",
 };
 
+export const deleteJob = createAsyncThunk('job/deleteJob', async (jobId, thunkAPI) => {
+    thunkAPI.dispatch(showLoading())
+})
+
 const jobSlice = createSlice({
     name: 'job',
     initialState,
