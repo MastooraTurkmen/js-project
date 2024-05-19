@@ -40,7 +40,20 @@ const SearchContainer = () => {
                         handleChange={handleSearch}
                         list={["all", ...jobTypeOptions]}
                     />
-                   
+                    {/* sort */}
+                    <FormRowSelect
+                        name="sort"
+                        value={sort}
+                        handleChange={handleSearch}
+                        list={sortOptions}
+                    />
+                    <button
+                        className="btn btn-block btn-danger"
+                        disabled={isLoading}
+                        onClick={handleSubmit}
+                    >
+                        clear filters
+                    </button>
                 </div>
             </form>
         </Wrapper>
