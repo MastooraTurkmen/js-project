@@ -17,8 +17,39 @@ const initialState = {
     editJobId: "",
 };
 
+export const createJob = createAsyncThunk('job/createJob', async (job, thunkAPI) => {
+    thunkAPI.dispatch(showLoading())
+    try {
+        const resp = await customFetch.delete(`/jobs`, job, {
+            headers: {
+                authorization: `Bearer ${thunkAPI.getState().user.user.token}`,
+            },
+        })
+        thunkAPI.dispatch(clearValues())
+        return resp.data;
+    } catch (error) {
+        if (error.response.status === 401) {
+            thunkAPI.dispatch(logoutUser())
+            return thunkAPI.rejectWithValue('Unauthorized! Logging Out...')
+        }
+        return thunkAPI.rejectWithValue(error.response.data.msg)
+    }
+})
+
 export const deleteJob = createAsyncThunk('job/deleteJob', async (jobId, thunkAPI) => {
     thunkAPI.dispatch(showLoading())
+    try {
+        const resp = await customFetch.delete(`/jobs/${jobId}`, {
+            headers: {
+                authorization: `Bearer ${thunkAPI.getState().user.user.token}`,
+            },
+        })
+        thunkAPI.dispatch(getAllJobs())
+        return resp.data
+    } catch (error) {
+        thunkAPI.dispatch(hideLoading())
+        return thunkAPI.rejectWithValue(error.response.data.msg)
+    }
 })
 
 const jobSlice = createSlice({
@@ -31,6 +62,23 @@ const jobSlice = createSlice({
         clearValues: () => {
             return { ...initialState, jobLocation: getUserFromLocalStorage()?.location || '' }
         }
+    },
+    extraReducers: (builder) => {
+        builder
+            .addCase(createJob.pending, (state) => {
+                state.isLoading = true;
+            })
+            .addCase(createJob.fulfilled, (state) => {
+                state.isLoading = false;
+                toast.success('Job Created');
+            })
+            .addCase(createJob.rejected, (state, { payload }) => {
+                state.isLoading = false;
+                toast.error(payload);
+            })
+            .addCase(deleteJob.rejected, (state, { payload }) => {
+                toast.error(payload);
+            })
     }
 })
 
