@@ -13,7 +13,12 @@ const SearchContainer = () => {
     };
 
     return (
-        <h2>SearchContainer</h2>
+        <Wrapper>
+            <form className="form">
+                <h4>search form</h4>
+                
+            </form>
+        </Wrapper>
     )
 }
 
