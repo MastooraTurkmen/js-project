@@ -1978,8 +1978,6 @@ const JobsContainer = () => {
 export default JobsContainer;
 ```
 
-[CSS Only Loading Spinner](https://youtu.be/DqqZEpctZ8w)
-
 Loading.js
 
 ```js
